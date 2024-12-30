@@ -33,7 +33,7 @@ jobs:
 
       # Ahora instalamos las dependencias
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install 
 
       - name: Build the application
         env:
