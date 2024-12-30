@@ -2,7 +2,7 @@
 name: Build React Webpage
 
 on:
-  # Runs on pushes targeting the release branch
+  # Runs on pull requests targeting the main branch
   pull_request:
     branches: [main]
 
@@ -10,27 +10,42 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Single deploy job since we're just deploying
+  # Single build job
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      # Step 1: Checkout the code
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js environment
+      # Step 2: Set up Node.js and Yarn environment
+      - name: Set up Node.js environment
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
           cache: 'yarn'
 
-      - name: Install dependencies
-        run: yarn
+      # Step 3: Enable Corepack for Yarn 3
+      - name: Enable Corepack
+        run: corepack enable
 
-      - name: Build
+      # Step 4: Prepare Yarn 3.6.1
+      - name: Prepare Yarn 3.6.1
+        run: corepack prepare yarn@3.6.1 --activate
+
+      # Step 5: Verify Yarn version
+      - name: Verify Yarn version
+        run: yarn --version
+
+      # Step 6: Install dependencies
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      # Step 7: Build the application
+      - name: Build the application
         env:
           PUBLIC_URL: https://lamda-lab.github.io
-        run: |
-          yarn build
+        run: yarn build
