@@ -21,19 +21,19 @@ jobs:
         with:
           node-version: 16.x
 
-      # Combinamos los pasos de Corepack
+      # Enable Corepack for Yarn
       - name: Enable Corepack
         run: |
           corepack enable
           corepack prepare yarn@3.6.1 --activate
 
-      # Verificamos la versión de Yarn
+      # Verify Yarn version
       - name: Verify Yarn version
         run: yarn --version
 
-      # Quitamos --immutable de la instalación
+      # Install dependencies without lockfile modification
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable --immutable-cache
 
       - name: Build the application
         env:
