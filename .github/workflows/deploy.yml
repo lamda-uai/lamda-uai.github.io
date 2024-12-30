@@ -15,7 +15,7 @@ jobs:
     environment:
       name: github-pages
       url: https://lamda-lab.github.io
-      
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
