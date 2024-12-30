@@ -1,8 +1,5 @@
 name: Build React Webpage
 on:
-  push:
-    branches: [main]
-    
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -21,7 +18,7 @@ jobs:
         with:
           node-version: 16.x
 
-      # Primero habilitamos Corepack
+      # Combinamos los pasos de Corepack
       - name: Enable Corepack
         run: |
           corepack enable
@@ -31,9 +28,9 @@ jobs:
       - name: Verify Yarn version
         run: yarn --version
 
-      # Ahora instalamos las dependencias
+      # Quitamos --immutable de la instalación
       - name: Install dependencies
-        run: yarn install 
+        run: yarn install
 
       - name: Build the application
         env:
