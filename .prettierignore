@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+public
+dist
+
+yarn.lock
+.vscode/
+.yarn/
