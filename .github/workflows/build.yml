@@ -33,7 +33,7 @@ jobs:
 
       # Install dependencies without lockfile modification
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable-cache
 
       - name: Build the application
         env:
