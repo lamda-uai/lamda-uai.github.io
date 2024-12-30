@@ -1,50 +1,40 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Build React Webpage
-
 on:
-  # Runs on pull requests targeting the main branch
+  push:
+    branches: [main]
+    
   pull_request:
     branches: [main]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  # Single build job
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Checkout the code
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # Step 2: Set up Node.js and Yarn environment
       - name: Set up Node.js environment
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
-          cache: 'yarn'
 
-      # Step 3: Enable Corepack for Yarn 3
+      # Primero habilitamos Corepack
       - name: Enable Corepack
-        run: corepack enable
+        run: |
+          corepack enable
+          corepack prepare yarn@3.6.1 --activate
 
-      # Step 4: Prepare Yarn 3.6.1
-      - name: Prepare Yarn 3.6.1
-        run: corepack prepare yarn@3.6.1 --activate
-
-      # Step 5: Verify Yarn version
+      # Verificamos la versión de Yarn
       - name: Verify Yarn version
         run: yarn --version
 
-      # Step 6: Install dependencies
+      # Ahora instalamos las dependencias
       - name: Install dependencies
         run: yarn install --immutable
 
-      # Step 7: Build the application
       - name: Build the application
         env:
           PUBLIC_URL: https://lamda-lab.github.io
