@@ -6,8 +6,8 @@ export function Home(): ReactElement {
       <div className="banner">
         <div className="container">
           <div className="banner-info">
-            <h2>Pattern Recognition Lab | UAI</h2>
-            <p> Data Science, Machine Learning and Applied Statistics</p>
+            <h2>LAMDA-UAI</h2>
+            <p> An Machine Learning and Applied Machine Learning Lab</p>
           </div>
         </div>
       </div>
@@ -66,15 +66,13 @@ export function Home(): ReactElement {
             <img src="images/about.jpeg" alt=" " />
           </div>
           <div className="group-text">
-            <h3>CASTLE Lab at HKUST</h3>
+            <h3> LAMDA at UAI</h3>
             <p>
-              <b>CASTLE</b> (<b>C</b>ode <b>A</b>nalysi<b>S</b>, <b>T</b>esting
-              and <b>LE</b>arning) Lab is a part of Software Engineering Group
-              in HKUST. The lab is headed by Prof.{' '}
-              <a href="http://www.cse.ust.hk/faculty/scc/">Shing-Chi Cheung</a>.
-              We are interested in research topices regarding program analysis,
-              testing and debugging, machine learning, crowdsourcing and open
-              source software repository.
+              <b>Lamda</b> (<b>La</b>boratorio de <b>M</b>achine Learning, <b>D</b>eep Learning y <b>A</b>lgoritmos)
+              is a part of Faculty of Engineering and Sciences
+              in UAI. The lab is headed by Prof.{' '}
+              <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">Sebastian Moreno</a>.
+              We are interested in machine learning applications to various domains.
             </p>
           </div>
           <div className="clearfix"> </div>

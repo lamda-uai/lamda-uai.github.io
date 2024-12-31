@@ -2,15 +2,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: 'deploy'
-  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -18,37 +13,33 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
-      - name: Set up Node.js environment
+      - name: Set up Node.js
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
 
-      # Combinamos los pasos de Corepack
       - name: Enable Corepack
         run: |
           corepack enable
-          corepack prepare yarn@3.6.1 --activate
+          corepack prepare yarn@stable --activate
 
-      # Verificamos la versión de Yarn
-      - name: Verify Yarn version
-        run: yarn --version
-
-      # Instalación de dependencias
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Update Browserslist database
-        run: npx update-browserslist-db@latest
-
-      - name: Build the application
+      - name: Configure Yarn
         run: |
-          PUBLIC_URL=https://lamda-uai.github.io yarn build
+          yarn set version stable
+          yarn config set nodeLinker node-modules
 
-      - name: Deploy to GitHub Pages
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Build
+        env:
+          PUBLIC_URL: https://lamda-lab.github.io
+        run: yarn build
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          force_orphan: trues

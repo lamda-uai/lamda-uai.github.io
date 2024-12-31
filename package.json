@@ -5,7 +5,7 @@
   "private": true,
   "homepage": "https://lamda-uai.github.io",
   "type": "module",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@stable",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

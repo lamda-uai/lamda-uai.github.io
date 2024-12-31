@@ -2,7 +2,6 @@ name: Build React Webpage
 on:
   push:
     branches: [main]
-
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -16,26 +15,32 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js environment
+      - name: Set up Node.js
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
 
-      # Enable Corepack for Yarn
       - name: Enable Corepack
         run: |
           corepack enable
-          corepack prepare yarn@3.6.1 --activate
+          corepack prepare yarn@stable --activate
 
-      # Verify Yarn version
-      - name: Verify Yarn version
-        run: yarn --version
+      - name: Configure Yarn
+        run: |
+          yarn set version stable
+          yarn config set nodeLinker node-modules
 
-      # Install dependencies without lockfile modification
       - name: Install dependencies
-        run: yarn install --immutable-cache
+        run: yarn install --immutable
 
       - name: Build the application
         env:
           PUBLIC_URL: https://lamda-lab.github.io
         run: yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
