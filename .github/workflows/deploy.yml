@@ -22,12 +22,13 @@ jobs:
       - name: Enable Corepack
         run: |
           corepack enable
-          corepack prepare yarn@stable --activate
 
       - name: Configure Yarn
         run: |
+          corepack prepare yarn@1.22.19 --activate
           yarn set version stable
           yarn config set nodeLinker node-modules
+
 
       - name: Install dependencies
         run: yarn install --immutable
