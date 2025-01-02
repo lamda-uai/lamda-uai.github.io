@@ -29,6 +29,15 @@ export function Home(): ReactElement {
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>
+          <li>
+            <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
+          </li>		
+          <li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at Jornadas Chilenas de la Computación 2024.
+          </li>				
+          <li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
+          </li>						
           <li>		  
             <b>Aug. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper accepted</a> at <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
           </li>                    
