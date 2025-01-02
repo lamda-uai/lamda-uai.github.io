@@ -1,23 +1,48 @@
-# Homepage of Pattern Recognition Research Group
+# LAMDA-UAI Website
 
-## Development
+This repository contains the source code for the LAMDA-UAI research group website. It's built using React with TypeScript and deployed using GitHub Pages.
 
-### Requirement
+## Prerequisites
 
-`node.js >= 16`
+- Node.js 
+- Yarn package manager
+- Git
 
-### Install dependencies
+## Getting Started
 
+1. **Clone the repository**
+```bash
+git clone https://github.com/lamda-uai/lamda-uai.github.io.git
+cd lamda-uai.github.io
 ```
-yarn
+
+2. **Install dependencies**
+```bash
+yarn install
 ```
 
-### Development build
-
-```
+3. **Start development server**
+```bash
 yarn start
 ```
 
-## Deployment
+The site will be available at `http://localhost:3000`
 
-Any push to `main` branch will re-deploy the website to github pages.
+
+## Contributing
+
+1. Create a new branch for your feature
+```bash
+git checkout -b feature/your-feature-name
+```
+
+2. Make your changes and commit them
+```bash
+git add .
+git commit -m "Description of changes"
+```
+
+3. Push your branch and create a Pull Request
+```bash
+git push origin feature/your-feature-name
+```
