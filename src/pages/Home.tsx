@@ -58,7 +58,8 @@ export function Home(): ReactElement {
               is a laboratory headed by Associate Professor.{' '}
               <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">Sebastian Moreno</a> from the.{' '}
 	      <a href="https://ingenieria.uai.cl/">Faculty of Engineering and Sciences</a> at.{' '}
-	      <a href="https://uai.cl/">Universidad Adolfo Ibáñez</a>, Chile.<br>
+	      <a href="https://uai.cl/">Universidad Adolfo Ibáñez</a>, Chile.
+		    
               We are interested in the creation of machine learning and deep learning models, and their applications to multiple domains.
             </p>
           </div>
