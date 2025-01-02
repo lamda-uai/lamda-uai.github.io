@@ -7,7 +7,7 @@ export function Home(): ReactElement {
         <div className="container">
           <div className="banner-info">
             <h2>LAMDA-UAI</h2>
-            <p> An Machine Learning and Applied Machine Learning Lab</p>
+            <p> A Machine Learning and Deep Learning Lab</p>
           </div>
         </div>
       </div>
@@ -15,47 +15,19 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
           <li>
-            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully
-            defended their PhD thesis.
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal. Congratulations!.
           </li>
-
           <li>
-            <b> Nov. 2023: </b> One paper is accepted by IEEE S&P 2024.
+            <b>Jan. 2025: </b> Alfonso Tobar has started working in the .
           </li>
-
           <li>
-            <b>Jul. 2023: </b> Huaxun Huang has successfully defended his PhD
-            thesis. Congratulations!
+            <b>Jan. 2025: </b> Agustin Soto has started his internship in the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
           </li>
-
           <li>
-            <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023.
-            Congrats to Ying, Ming, Jialun and Xiao.
+            <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
           </li>
-
           <li>
-            <b>Jul. 2023: </b> One paper on software testing using LLM is
-            accepted by ASE'23.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
-            thesis. Congratulations!
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair
-            professorship.
-          </li>
-
-          <li>
-            <b>Jun. 2023: </b> One paper on program synthesis is accepted by
-            TOSEM.
-          </li>
-
-          <li>
-            <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
-            IEEE Fellow Class 2023.
+            <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master thesis proposal. Congratulations!.
           </li>
         </ul>
       </div>
