@@ -144,7 +144,13 @@ export function News(): ReactElement {
           </li>          		
           <li>
             <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000380">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society. Congrats to R. Martinez.
-          </li>          				
+          </li>      
+          <li>
+            <b>Oct. 2022: </b> Cristobal Heredia attended INFORMS as Finalist of the INFORMS Undergraduate OR Prize, Congratulations!!!
+          </li> 
+          <li>
+            <b>Oct. 2022: </b> Cristobal Heredia won the Amazon SCOT and INFORMS Scholarships to attend the 2022 INFORMS, Congratulations!!!
+          </li> 		
           <li>
             <b>Sept. 2022: </b> Bárbara Salazar has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
