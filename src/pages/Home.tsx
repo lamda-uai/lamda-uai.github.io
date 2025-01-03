@@ -14,6 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
+	  <li>
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule 
+          </li>		
           <li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
