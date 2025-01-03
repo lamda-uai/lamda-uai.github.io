@@ -74,7 +74,9 @@ export function News(): ReactElement {
           <li>
             <b>Dec. 2023: </b> Nicolás Martinez has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
-		<li><b>  </b></li>
+	</ul>
+        <ul className="news-list">		
+
           <li>
             <b>Dec. 2023: </b> Cristobal Heredia has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
@@ -96,7 +98,9 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2023: </b> Alejandra Bravo-Diaz has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
-		<li><b>  </b></li>
+	</ul>
+        <ul className="news-list">		
+
           <li>
             <b>Dec. 2022: </b> We won the initiation FONDECYT fund research, by ANID, Chile.
           </li> 		
@@ -118,7 +122,9 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2022: </b> Valentina Martinez has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
-		<li><b>  </b></li>
+	</ul>
+        <ul className="news-list">		
+
           <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
@@ -131,7 +137,8 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2021: </b> Martín Pinto has successfully defended his bachelor in Engineering, Congratulations!!!
           </li> 
-		<li><b>  </b></li>
+	</ul>
+        <ul className="news-list">		
           <li>
             <b>March 2020: </b> Sebastian Hughes has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
