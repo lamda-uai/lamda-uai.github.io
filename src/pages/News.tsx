@@ -18,7 +18,7 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
           </li>
-	<li></li>
+	         <li><b>  </b></li>
 	   <li>
             <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
           </li>
@@ -73,6 +73,7 @@ export function News(): ReactElement {
           <li>
             <b>Dec. 2023: </b> Nicolás Martinez has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
+		<li><b>  </b></li>
           <li>
             <b>Dec. 2023: </b> Cristobal Heredia has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
@@ -81,6 +82,9 @@ export function News(): ReactElement {
           </li> 
           <li>
             <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
+          </li>
+          <li>
+            <b>Sept. 2023: </b> <a https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
           </li> 						
 	  <li>
             <b>June 2023: </b> Abstract accepted at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
@@ -91,6 +95,7 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2023: </b> Alejandra Bravo-Diaz has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
+		<li><b>  </b></li>
           <li>
             <b>Dec. 2022: </b> We won the initiation FONDECYT fund research, by ANID, Chile.
           </li> 		
@@ -112,6 +117,7 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2022: </b> Valentina Martinez has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
+		<li><b>  </b></li>
           <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
@@ -124,6 +130,7 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2021: </b> Martín Pinto has successfully defended his bachelor in Engineering, Congratulations!!!
           </li> 
+		<li><b>  </b></li>
           <li>
             <b>March 2020: </b> Sebastian Hughes has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
