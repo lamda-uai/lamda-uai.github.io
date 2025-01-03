@@ -23,8 +23,11 @@ export function News(): ReactElement {
           </li>
 	</ul>
         <ul className="news-list">		
-	   <li>
-            <b>Dic. 2024: </b> Agustín Ghent attended the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
+	<li>
+            <b>Dec. 2024: </b> Alfonso Tobar attended remotely the Thirty-Eight Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
+          </li> 		   
+	<li>
+            <b>Dec. 2024: </b> Agustín Ghent attended the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
           </li>
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
@@ -42,7 +45,7 @@ export function News(): ReactElement {
             <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
           </li>						
           <li>
-            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Conference paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
+            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Journal paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
           </li>          
           <li>
             <b>Sept. 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
@@ -77,7 +80,7 @@ export function News(): ReactElement {
 	</ul>
         <ul className="news-list">		
           <li>
-            <b>Dec. 2023: </b> Diego ramos attended the The Thirty-Eighth Annual Conference on Neural Information Processing Systems, New Orleans, USA.		  
+            <b>Dec. 2023: </b> Diego ramos attended the Thirty-Seven Annual Conference on Neural Information Processing Systems, New Orleans, USA.		  
           </li> 		
           <li>
             <b>Dec. 2023: </b> Nicolás Martinez has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
@@ -89,13 +92,22 @@ export function News(): ReactElement {
             <b>Nov. 2023: </b> Cristobal Nazar has successfully defended his Master of Science in Engineering, thesis, Congratulations!!!
           </li> 
           <li>
+            <b>Oct. 2023: </b> <a href="https://doi.org/10.1109/SCCC59417.2023.10315748">Conference paper published</a> at the XLII International Conference of the Chilean Computer Science Society. Congrats to Heredia.
+          </li>          		
+          <li>
+            <b>Oct. 2023: </b> Alejandra Bravo-Diaz presented at Escuela Predoctoral, Universidad Adolfo Ibáñez.
+          </li>				
+          <li>
+            <b>Sept. 2023: </b> D. Berroeta, A. Bravo-Diaz, and A. Tobar presented their work at Simposio Internacional, Clima y Resiliencia en Tiempos de Cambio.
+          </li>		
+          <li>
             <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Journal paper published</a> in <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
           </li>
           <li>
-            <b>Sept. 2023: </b> <a href="https://doi.org/10.3758/s13428-023-02260-9">Journal paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1).
+            <b>Sept. 2023: </b> <a href="https://doi.org/10.3758/s13428-023-02260-9">Journal paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
           </li> 						
 	  <li>
-            <b>June 2023: </b> Abstract accepted at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
+            <b>June 2023: </b> Abstract published at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
           </li> 
           <li>
             <b>May 2023: </b> <a href="https://doi.org/10.3390/su15118689">Journal paper published</a> in <a href="https://www.mdpi.com/journal/sustainability">Sustainability</a> (WOS-Q2). Congrats to Miranda.
@@ -117,7 +129,13 @@ export function News(): ReactElement {
           </li> 		
           <li>
             <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Journal Paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
-          </li> 						
+          </li> 
+          <li>
+            <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000332">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society. Congrats to Hughes.
+          </li>          		
+          <li>
+            <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000380">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society. Congrats to R. Martinez.
+          </li>          				
           <li>
             <b>Sept. 2022: </b> Bárbara Salazar has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
@@ -138,6 +156,9 @@ export function News(): ReactElement {
           </li> 
 	</ul>
         <ul className="news-list">		
+	  <li>
+            <b>Dec. 2021: </b> A. Bravo-Diaz and N. Martinez attended remotely the Thirty-Nine Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
+          </li> 		   
           <li>
             <b>Oct. 2021: </b> <a href="https://doi.org/10.1109/TITS.2021.3116963">Journal paper published</a> in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligent Transportation Systems</a> (WOS-Q1). Congrats to Heredia.
           </li> 
@@ -170,7 +191,7 @@ export function News(): ReactElement {
         </ul>
         <ul className="news-list">		
 	  <li>
-            <b>Dec. 2019: </b> <a href="https://doi.org/10.1016/j.trc.2019.10.018">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies">Transportation Research Part C: Emerging Technologies</a> (WOS-Q4).
+            <b>Dec. 2019: </b> <a href="https://doi.org/10.1016/j.trc.2019.10.018">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies">Transportation Research Part C: Emerging Technologies</a> (WOS-Q4). Congrats to Hughes.
           </li>
         </ul>
       </div>
