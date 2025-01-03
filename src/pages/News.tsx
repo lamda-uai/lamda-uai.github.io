@@ -10,7 +10,7 @@ export function News(): ReactElement {
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
           <li>
-            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in the FONDEF #IT24I0144.
+            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
           </li>
           <li>
             <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
@@ -21,11 +21,14 @@ export function News(): ReactElement {
 	</ul>
         <ul className="news-list">		
 	   <li>
-            <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
+            <b>Dic. 2024: </b> Agustín Ghent attended the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
           </li>
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>
+          <li>		  
+            <b>Nov. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper published</a> in <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
+          </li>                    		
           <li>
             <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
           </li>		
@@ -35,32 +38,29 @@ export function News(): ReactElement {
           <li>
             <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
           </li>						
-          <li>		  
-            <b>Aug. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper accepted</a> at <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
-          </li>                    
+          <li>
+            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Conference paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
+          </li>          
+          <li>
+            <b>Sept. 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
+          </li>          
           <li>
             <b>Aug. 2024: </b> We give a warm welcome to Sofía Álvarez, who has started the Master of Science in Data Science.
           </li>                    
           <li>
             <b>July 2024: </b> Alfonso Tobar has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>          
-          <li>
-            <b>July 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
-          </li>          
-          <li>
-            <b>June 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
-          </li>          
+	   <li>
+            <b>May 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
+          </li>          		
           <li>
             <b>April 2024: </b> Diego Corvalán has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li>
           <li>
             <b>April 2024: </b> Ninnete Olhabe has successfully defended her Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
           </li>
-	   <li>
-            <b>April 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
-          </li>          		
           <li>
-            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
+            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
           </li>          				
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
@@ -84,14 +84,20 @@ export function News(): ReactElement {
             <b>Nov. 2023: </b> Cristobal Nazar has successfully defended his Master of Science in Engineering, thesis, Congratulations!!!
           </li> 
           <li>
-            <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
+            <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Journal paper published</a> in <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
           </li>
           <li>
-            <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
+            <b>Sept. 2023: </b> <a href="https://doi.org/10.3758/s13428-023-02260-9">Journal paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1).
           </li> 						
 	  <li>
             <b>June 2023: </b> Abstract accepted at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
           </li> 
+          <li>
+            <b>May 2023: </b> <a href="https://doi.org/10.3390/su15118689">Journal paper published</a> in <a href="https://www.mdpi.com/journal/sustainability">Sustainability</a> (WOS-Q2). Congrats to Miranda.
+          </li> 
+          <li>
+            <b>April 2023: </b> <a href="https://doi.org/10.3390/math11071749">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1). Congrats to V. Martinez.
+          </li>          								
           <li>
             <b>Jan. 2023: </b> Diego Ramos has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
@@ -105,7 +111,7 @@ export function News(): ReactElement {
             <b>Dec. 2022: </b> We won the initiation FONDECYT fund research, by ANID, Chile.
           </li> 		
           <li>
-            <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Paper published</a> in the journal <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
+            <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Journal Paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
           </li> 						
           <li>
             <b>Sept. 2022: </b> Bárbara Salazar has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
@@ -117,6 +123,9 @@ export function News(): ReactElement {
             <b>June 2022: </b> Rodrigo Martinez has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
           <li>
+            <b>March 2022: </b> <a href="https://doi.org/10.3758/s13428-022-01811-w">Journal paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1).
+          </li> 								
+          <li>
             <b>Jan. 2022: </b> Sebastián Moreno is an Associate Professor at Universidad Adolfo Ibáñez!!!
           </li> 		
           <li>
@@ -124,7 +133,12 @@ export function News(): ReactElement {
           </li> 
 	</ul>
         <ul className="news-list">		
-
+          <li>
+            <b>Oct. 2021: </b> <a href="https://doi.org/10.1109/TITS.2021.3116963">Journal paper published</a> in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligent Transportation Systems</a> (WOS-Q1). Congrats to Heredia.
+          </li> 
+          <li>
+            <b>Oct. 2021: </b> <a https://doi.org/10.3390/math9202599">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
+          </li>          						
           <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
