@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "https://lamda-uai.github.io/static/js/main.67742d1d.js",
-    "static/js/919.925f2697.chunk.js": "https://lamda-uai.github.io/static/js/919.925f2697.chunk.js",
-    "index.html": "https://lamda-uai.github.io/index.html",
-    "main.67742d1d.js.map": "https://lamda-uai.github.io/static/js/main.67742d1d.js.map",
-    "919.925f2697.chunk.js.map": "https://lamda-uai.github.io/static/js/919.925f2697.chunk.js.map"
+    "main.js": "/aghents.github.io/lab-website/static/js/main.6f3384c1.js",
+    "static/js/111.814ad469.chunk.js": "/aghents.github.io/lab-website/static/js/111.814ad469.chunk.js",
+    "index.html": "/aghents.github.io/lab-website/index.html",
+    "main.6f3384c1.js.map": "/aghents.github.io/lab-website/static/js/main.6f3384c1.js.map",
+    "111.814ad469.chunk.js.map": "/aghents.github.io/lab-website/static/js/111.814ad469.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.67742d1d.js"
+    "static/js/main.6f3384c1.js"
   ]
 }
