@@ -95,6 +95,9 @@ export function News(): ReactElement {
           <li>
             <b>Nov. 2023: </b> Cristobal Nazar, has successfully defended his Master of Science in Engineering, thesis, Congratulations!!!
           </li> 
+	  <li>
+            <b>June 2023: </b> Abstract accepted at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
+          </li> 
           <li>
             <b>Jan. 2023: </b> Diego Ramos, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
@@ -102,7 +105,13 @@ export function News(): ReactElement {
             <b>Jan. 2023: </b> Alejandra Bravo-Diaz, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
           <li>
+            <b>Dec. 2022: </b> We won the FONDECYT in iniciación fund research, by ANID, Chile.
+          </li> 		
+          <li>
             <b>Sept. 2022: </b> Bárbara Salazar, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+	  <li>
+            <b>Aug. 2022: </b> In collaboration with S. Chaigneau and E. Canessa, We won a 2022 JSMF Understanding Human Cognition Opportunity fund (<a href="https://grants.jsmf.org/2022-3930/">link</a>).
           </li> 
           <li>
             <b>June 2022: </b> Rodrigo Martinez, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
@@ -113,8 +122,14 @@ export function News(): ReactElement {
           <li>
             <b>July 2021: </b> Diego Opazo, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
+	  <li>
+            <b>May 2021: </b> Paper accepted at the XXI Congreso Panamericano de Transporte y Logística <a href="https://www.easychair.org/cfp/XXI-PANAM-LIMA-2021">PANAM 2021</a>. Congrats to Bravo-Diaz.
+          </li> 		
           <li>
-            <b>July 2021: </b> Diego Opazo, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+            <b>Jan. 2021: </b> Daniela Miranda, has successfully defended her bachelor in Engineering, Congratulations!!!
+          </li> 
+          <li>
+            <b>Jan. 2021: </b> Martín Pinto, has successfully defended his bachelor in Engineering, Congratulations!!!
           </li> 
           <li>
             <b>March 2020: </b> Sebastian Hughes, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
