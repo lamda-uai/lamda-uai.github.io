@@ -22,200 +22,104 @@ export function News(): ReactElement {
         </div>
         <div className="clearfix"> </div>
         <ul className="news-list">
-          <li>
-            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully
-            defended their PhD thesis.
-          </li>
-
-          <li>
-            <b> Nov. 2023: </b> One paper is accepted by IEEE S&P 2024.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023.
-            Congrats to Ying, Ming, Jialun and Xiao.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Huaxun Huang has successfully defended his PhD
-            thesis.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Two papers are accepted by ACM TOSEM. Congrats to
-            Victor and Hengcheng.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> One paper on software testing using LLM is
-            accepted by ASE'23. Congrats to Tsz-On.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
-            thesis.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair
-            professorship.
-          </li>
-
-          <li>
-            <b>Jun. 2023: </b> One paper is accepted by TOSEM.
-          </li>
-
-          <li>
-            <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
-          </li>
-
-          <li>
-            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and
-            IEEE TSE.
-          </li>
-
-          <li>
-            <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
-            IEEE Fellow Class 2023.
-          </li>
-
-          <li>
-            <b>Oct. 2022: </b> One paper accepted to ASE 2022.
-          </li>
-
-          <li>
-            <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
-            University.
-          </li>
-
-          <li>
-            <b>Aug. 2022: </b> One paper is accepted by USENIX Security 2022.
-          </li>
-
-          <li>
-            <b>May. 2022: </b> Three papers are accepted by ICSE 2022.
-          </li>
-
-          <li>
-            <b>Jul. 2021: </b> Two papers are accepted by ASE'21.
-          </li>
-
-          <li>
-            <b>May. 2021: </b> Two papers are accepted by FSE'21.
-          </li>
-
-          <li>
-            <b>May. 2021: </b> One paper is accepted by Empirical Software
-            Engineering.
-          </li>
-
-          <li>
-            <b>May. 2021: </b> One paper got ICSE'21 Distinguished paper award.
-          </li>
-
-          <li>
-            <b>Sep. 2020: </b> Yongqiang Tian published a{' '}
-            <a href="https://yqtianust.github.io/awesome-ml-testing/">repo</a>{' '}
-            for awesome machine learning materials
-          </li>
-
-          <li>
-            <b>Oct. 2019: </b> Lili Wei received{' '}
-            <a href="https://seng.ust.hk/news/20191031/leveraging-computer-science-turn-imagination-reality">
-              SENG interview
-            </a>
-          </li>
-
-          <li>
-            <b>May. 2019: </b> Yongqiang Tian received Microsoft Cloud Software
-            Research Fellow Award
-          </li>
-
-          <li>
-            <b>Mar. 2019: </b> Ming Wen passed his PhD thesis defense.
-            Congratulations!
-          </li>
-
-          <li>
-            <b>Oct. 2018: </b> Lili Wei received 2018 Microsoft PhD Fellowship
-            Award
-          </li>
-
-          <li>
-            <b>Oct. 2018: </b> Lili Wei received{' '}
-            <a href="https://ai.google/research/outreach/phd-fellowship/recipients/">
-              2018 Google PhD Fellowship Award
-            </a>
+         <li>
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
           <li>
-            <b>Jul. 2018: </b>{' '}
-            <a href="https://cideranalyzer.github.io/">CIDER</a> accepted to ASE
-            2018
+            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in the FONDEF #IT24I0144.
           </li>
           <li>
-            <b>Jul. 2018: </b>{' '}
-            <a href="http://home.cse.ust.hk/~jhuao/wDroid.html">&omega;Droid</a>{' '}
-            accepted to ASE 2018
+            <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
           </li>
           <li>
-            <b>Dec. 2018: </b>{' '}
-            <a href="https://github.com/justinwm/CapGen">CapGen</a> accepted to
-            ICSE 2018
+            <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
+          </li>
+	   <li>
+            <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
+          </li>
+		
+          <li>
+            <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>
           <li>
-            <b>Nov. 2017: </b>{' '}
-            <a href="https://link.springer.com/epdf/10.1007/s10664-017-9567-4?author_access_token=dwdnatry6TOx-okPhHbSS_e4RwlQNchNByi7wbcMAY4bRi6jdBYn4RG-q8k1yPU6YsE5AI8wWS4MOTXWFqncFexMAjNf4xGcGMd7CmCOBjN5s7bgJa6gBQj-guEMXghGqIqG1QelnZAzXwiGdTiMQw%3D%3D">
-              ChangeLocator
-            </a>{' '}
-            accepted to EMSE
+            <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
+          </li>		
+          <li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at Jornadas Chilenas de la Computación 2024.
+          </li>				
+          <li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
+          </li>						
+          <li>		  
+            <b>Aug. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper accepted</a> at <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
+          </li>                    
+          <li>
+            <b>Aug. 2024: </b> We give a warm welcome to Sofía Álvarez, who has started the Master of Science in Data Science.
+          </li>                    
+          <li>
+            <b>July 2024: </b> Alfonso Tobar has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
+          </li>          
+          <li>
+            <b>July 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
+          </li>          
+          <li>
+            <b>June 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
+          </li>          
+          <li>
+            <b>April 2024: </b> Diego Corvalán has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li>
           <li>
-            <b>Jun. 2017: </b>{' '}
-            <a href="http://sccpu2.cse.ust.hk/oasis/">OASIS</a> accepted to FSE
-            2017
+            <b>April 2024: </b> Ninnete Olhabe has successfully defended her Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
           </li>
+	   <li>
+            <b>April 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
+          </li>          		
           <li>
-            <b>Nov. 2016: </b> A large collection of resource leaks bugs in
-            real-world Android apps,{' '}
-            <a href="http://sccpu2.cse.ust.hk/droidleaks/">DroidLeaks</a>, has
-            been released
-          </li>
+            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1.
+          </li>          				
           <li>
-            <b>Jul. 2016: </b>
-            <a href="http://www.cse.ust.hk/~mwenaa/Locus.html">
-              Locus
-            </a> and{' '}
-            <a href="http://sccpu2.cse.ust.hk/ficfinder/index.html">
-              FicFinder
-            </a>{' '}
-            accepted to ASE 2016
-          </li>
+            <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
+          </li>                    
           <li>
-            <b>Jun. 2016: </b>
-            <a href="http://sccpu2.cse.ust.hk/elite/">Elite</a> accepted to FSE
-            2016 and evaluated as a Platinum Artifact by the Artifact Evaluation
-            Committee
-          </li>
+            <b>Jan. 2024: </b> Cristobal Heredia has started a new position as a Phd. Student at Univesity of South Florida, USA.
+          </li> 
           <li>
-            <b>Apr. 2016: </b>
-            <a href="http://sccpu2.cse.ust.hk/csnippex/index.html">
-              CSNIPPEX
-            </a>{' '}
-            accepted to ISSTA 2016 and artifact evaluated by the Artifact
-            Evaluation Committee
-          </li>
+            <b>Jan. 2024: </b> Our collaborator Enrique Canessa has won a FONDECYT fund research, by ANID, Chile.
+          </li> 
           <li>
-            <b>Jan. 2016: </b>
-            <a href="http://sccpu2.cse.ust.hk/custodes/">CUSTODES</a> and
-            AutoConTest accepted to ICSE 2016
-          </li>
+            <b>Dec. 2023: </b> Nicolás Martinez, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
+          </li> 
           <li>
-            <b>Oct. 2015: </b> Casper accepted to POPL 2016
-          </li>
+            <b>Dec. 2023: </b> Cristobal Heredia, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
+          </li> 
           <li>
-            <b>Oct. 2014: </b> Yanyan Jiang received 2014 Microsoft Research
-            Asia Fellowship Award
-          </li>
+            <b>Nov. 2023: </b> Cristobal Nazar, has successfully defended his Master of Science in Engineering, thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>Jan. 2023: </b> Diego Ramos, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>Jan. 2023: </b> Alejandra Bravo-Diaz, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>Sept. 2022: </b> Bárbara Salazar, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>June 2022: </b> Rodrigo Martinez, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>Jan. 2022: </b> Valentina Martinez, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>July 2021: </b> Diego Opazo, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>July 2021: </b> Diego Opazo, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          <li>
+            <b>March 2020: </b> Sebastian Hughes, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
+          </li> 
+          
         </ul>
       </div>
     </>
