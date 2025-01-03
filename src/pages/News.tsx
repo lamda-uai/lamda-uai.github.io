@@ -105,13 +105,13 @@ export function News(): ReactElement {
             <b>Jan. 2023: </b> Alejandra Bravo-Diaz, has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
           <li>
-            <b>Dec. 2022: </b> We won the FONDECYT in iniciación fund research, by ANID, Chile.
+            <b>Dec. 2022: </b> We won the initiation FONDECYT fund research, by ANID, Chile.
           </li> 		
           <li>
             <b>Sept. 2022: </b> Bárbara Salazar, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
 	  <li>
-            <b>Aug. 2022: </b> In collaboration with S. Chaigneau and E. Canessa, We won a 2022 JSMF Understanding Human Cognition Opportunity fund (<a href="https://grants.jsmf.org/2022-3930/">link</a>).
+            <b>Aug. 2022: </b> In collaboration with S. Chaigneau and E. Canessa, we won a 2022 JSMF Understanding Human Cognition Opportunity fund (<a href="https://grants.jsmf.org/2022-3930/">link</a>).
           </li> 
           <li>
             <b>June 2022: </b> Rodrigo Martinez, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
