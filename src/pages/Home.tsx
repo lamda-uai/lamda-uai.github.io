@@ -21,11 +21,15 @@ export function Home(): ReactElement {
             <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in the FONDEF #IT24I0144.
           </li>
           <li>
-            <b>Jan. 2025: </b> Agustin Soto has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
+            <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
           </li>
           <li>
             <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
           </li>
+	   <li>
+            <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
+          </li>
+		
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>
