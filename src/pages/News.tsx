@@ -84,7 +84,7 @@ export function News(): ReactElement {
             <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
           </li>
           <li>
-            <b>Sept. 2023: </b> <a https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
+            <b>Sept. 2023: </b> <a href="https://doi.org/10.1007/s10339-023-01160-2">Paper published</a> in the journal <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
           </li> 						
 	  <li>
             <b>June 2023: </b> Abstract accepted at the International Conference on Data Science <a href="https://icds2023.cl">ICDS 2023</a>. Congrats to Bravo-Diaz.
