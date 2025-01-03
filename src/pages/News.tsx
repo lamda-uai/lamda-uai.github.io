@@ -39,7 +39,10 @@ export function News(): ReactElement {
             <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
           </li>		
           <li>
-            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at Jornadas Chilenas de la Computación 2024.
+            <b>Oct. 2024: </b> Agustin Ghent is sub-reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
+          </li>				
+	<li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
           </li>				
           <li>
             <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
@@ -68,6 +71,12 @@ export function News(): ReactElement {
           <li>
             <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
           </li>          				
+          <li>
+            <b>March 2024: </b> A. Tobar and S. Moreno were invited to give a talk at <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
+          </li>                    				
+          <li>
+            <b>March 2024: </b> Agustin Ghent co-organized the <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
+          </li>                    		
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
           </li>                    
