@@ -137,8 +137,11 @@ export function News(): ReactElement {
             <b>Oct. 2021: </b> <a href="https://doi.org/10.1109/TITS.2021.3116963">Journal paper published</a> in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligent Transportation Systems</a> (WOS-Q1). Congrats to Heredia.
           </li> 
           <li>
-            <b>Oct. 2021: </b> <a href="https://doi.org/10.3390/math9202599">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
-          </li>          						
+            <b>Oct. 2021: </b> <a href="https://doi.org/10.3390/math9202599">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1). Congrats to Opazo.
+          </li>        
+          <li>
+            <b>Oct. 2021: </b> <a href="https://doi.org/10.1111/cogs.13044">Journal paper published</a> in <a href="https://onlinelibrary.wiley.com/journal/15516709">Cognitive Science</a> (WOS-Q2). Congrats to Opazo.
+          </li>        		
           <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
@@ -153,10 +156,17 @@ export function News(): ReactElement {
           </li> 
 	</ul>
         <ul className="news-list">		
+	  <li>
+            <b>July 2020: </b> <a href="https://doi.org/10.1007/s10339-020-00985-5">Journal paper published</a> in <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
+          </li>
           <li>
             <b>March 2020: </b> Sebastian Hughes has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
-          </li> 
-          
+          </li>           
+        </ul>
+        <ul className="news-list">		
+	  <li>
+            <b>Dec. 2019: </b> <a href="https://doi.org/10.1016/j.trc.2019.10.018">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies">Transportation Research Part C: Emerging Technologies</a> (WOS-Q4).
+          </li>
         </ul>
       </div>
     </>
