@@ -67,7 +67,7 @@ export function Home(): ReactElement {
             <b>April 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
           </li>          		
           <li>
-            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1.
+            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1).
           </li>          				
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
