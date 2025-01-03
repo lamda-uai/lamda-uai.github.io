@@ -7,6 +7,9 @@ export function News(): ReactElement {
         <h4>News</h4>
         <ul className="news-list">
          <li>
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
+          </li>		
+         <li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
           <li>
@@ -71,12 +74,14 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2024: </b> Our collaborator Enrique Canessa has won a FONDECYT fund research, by ANID, Chile.
           </li> 
+	</ul>
+        <ul className="news-list">		
+          <li>
+            <b>Dec. 2023: </b> Diego ramos attended the The Thirty-Eighth Annual Conference on Neural Information Processing Systems, New Orleans, USA.		  
+          </li> 		
           <li>
             <b>Dec. 2023: </b> Nicolás Martinez has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
-	</ul>
-        <ul className="news-list">		
-
           <li>
             <b>Dec. 2023: </b> Cristobal Heredia has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
