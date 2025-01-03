@@ -137,7 +137,7 @@ export function News(): ReactElement {
             <b>Oct. 2021: </b> <a href="https://doi.org/10.1109/TITS.2021.3116963">Journal paper published</a> in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligent Transportation Systems</a> (WOS-Q1). Congrats to Heredia.
           </li> 
           <li>
-            <b>Oct. 2021: </b> <a https://doi.org/10.3390/math9202599">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
+            <b>Oct. 2021: </b> <a href="https://doi.org/10.3390/math9202599">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
           </li>          						
           <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
