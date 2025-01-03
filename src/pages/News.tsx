@@ -172,7 +172,7 @@ export function News(): ReactElement {
 	</ul>
         <ul className="news-list">		
 	  <li>
-            <b>Dec. 2021: </b> A. Bravo-Diaz and N. Martinez attended remotely the Thirty-Nine Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
+            <b>Dec. 2021: </b> A. Bravo-Diaz and N. Martinez attended remotely the Thirty-Five Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
           </li> 		   
           <li>
             <b>Oct. 2021: </b> <a href="https://doi.org/10.1109/TITS.2021.3116963">Journal paper published</a> in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligent Transportation Systems</a> (WOS-Q1). Congrats to Heredia.
