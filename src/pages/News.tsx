@@ -75,7 +75,7 @@ export function News(): ReactElement {
             <b>April 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
           </li>          		
           <li>
-            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1.
+            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1).
           </li>          				
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
@@ -123,7 +123,7 @@ export function News(): ReactElement {
             <b>July 2021: </b> Diego Opazo, has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
 	  <li>
-            <b>May 2021: </b> Paper accepted at the XXI Congreso Panamericano de Transporte y Logística <a href="https://www.easychair.org/cfp/XXI-PANAM-LIMA-2021">PANAM 2021</a>. Congrats to Bravo-Diaz.
+            <b>May 2021: </b> Paper accepted at the XXI Congreso Panamericano de Transporte y Logística <a href="https://www.easychair.org/cfp/XXI-PANAM-LIMA-2021">PANAM 2021</a>. Congrats to Hughes.
           </li> 		
           <li>
             <b>Jan. 2021: </b> Daniela Miranda, has successfully defended her bachelor in Engineering, Congratulations!!!
