@@ -14,14 +14,14 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
-	  <li>
-            <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule. 
+         <li>
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
           </li>		
-          <li>
+         <li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
           <li>
-            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in the FONDEF #IT24I0144.
+            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
           </li>
           <li>
             <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
@@ -29,49 +29,60 @@ export function Home(): ReactElement {
           <li>
             <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
           </li>
-	   <li>
-            <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
+	<li>
+            <b>Dec. 2024: </b> Alfonso Tobar attended remotely the Thirty-Eight Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
+          </li> 		   
+	<li>
+            <b>Dec. 2024: </b> Agustín Ghent attended the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
           </li>
-		
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>
+          <li>		  
+            <b>Nov. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper published</a> in <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
+          </li>                    		
           <li>
             <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
           </li>		
           <li>
-            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at Jornadas Chilenas de la Computación 2024.
+            <b>Oct. 2024: </b> Agustin Ghent is sub-reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
+          </li>				
+	<li>
+            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
           </li>				
           <li>
             <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
           </li>						
-          <li>		  
-            <b>Aug. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper accepted</a> at <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
-          </li>                    
+          <li>
+            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Journal paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
+          </li>          
+          <li>
+            <b>Sept. 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
+          </li>          
           <li>
             <b>Aug. 2024: </b> We give a warm welcome to Sofía Álvarez, who has started the Master of Science in Data Science.
           </li>                    
           <li>
             <b>July 2024: </b> Alfonso Tobar has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>          
+	   <li>
+            <b>May 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
+          </li>          		
           <li>
-            <b>July 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
-          </li>          
-          <li>
-            <b>June 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
-          </li>          
-          <li>
-            <b>April 2024: </b> Diego Corvalán has successfully defended his Master of Science thesis, Congratulations!!!
+            <b>April 2024: </b> Diego Corvalán has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li>
           <li>
             <b>April 2024: </b> Ninnete Olhabe has successfully defended her Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
           </li>
-	   <li>
-            <b>April 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Paper accepted</a> in the journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
-          </li>          		
           <li>
-            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Paper accepted</a> in the journal <a href="https://www.mdpi.com/journal/mathematics">Mathematics)</a> (WOS-Q1).
+            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
           </li>          				
+          <li>
+            <b>March 2024: </b> A. Tobar and S. Moreno were invited to give a talk at <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
+          </li>                    				
+          <li>
+            <b>March 2024: </b> Agustin Ghent co-organized the <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
+          </li>                    		
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
           </li>                    
