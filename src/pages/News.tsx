@@ -5,7 +5,8 @@ export function News(): ReactElement {
     <>
       <div className="container news-content">
         <h4>News</h4>
-        <div className="news-photo">
+<!--
+	<div className="news-photo">
           <img src="images/news3.gif" alt=" " />
         </div>
         <div className="news-photo-text">
@@ -21,6 +22,7 @@ export function News(): ReactElement {
           </p>
         </div>
         <div className="clearfix"> </div>
+-->
         <ul className="news-list">
          <li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
