@@ -18,7 +18,7 @@ export function News(): ReactElement {
           <li>
             <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
           </li>
-	         <li><b>  </b></li>
+	         <li><b> {' '} </b></li>
 	   <li>
             <b>Dic. 2024: </b> Agustín Ghent attended to the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
           </li>
