@@ -13,6 +13,11 @@ export function Awards(): ReactElement {
             from Universidad Adolfo Ibáñez.
           </li>
           <li>
+            <b>May 2024: </b> Cristobal Heredia received{' '} 
+            <strong>Faculty of Engineering and Science prize</strong>{' '}
+            from Universidad Adolfo Ibáñez.
+          </li>          
+          <li>
             <b>Dec. 2023: </b> Prof. Sebastian Moreno received {' '}
             <strong>top-reviewer</strong>{' '}
             at the Thirty-Seventh Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/Conferences/2023">NeurIPS</a>).
@@ -42,6 +47,11 @@ export function Awards(): ReactElement {
             <strong>Best teacher Award</strong>{' '}
             from master of Data Science program, Universidad Adolfo Ibáñez.
           </li>
+          <li>
+            <b>Dec. 2022: </b> Valentina Martinez received{' '} 
+            <strong>Adolfo Ibáñez Boggiano prize</strong>{' '}
+            from Universidad Adolfo Ibáñez.
+          </li>                    
           <li>
             <b>Oct. 2022: </b>Cristobal Heredia was{' '}
             <strong>Finalist</strong>{' '}
