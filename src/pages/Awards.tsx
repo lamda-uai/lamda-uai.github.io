@@ -13,7 +13,7 @@ export function Awards(): ReactElement {
             from Universidad Adolfo Ibáñez.
           </li>
           <li>
-            <b>June. 2023: </b> Cristobal Heredia received {' '}
+            <b>June. 2024: </b> Cristobal Heredia received {' '}
             <strong>full PhD's scholarship</strong>{' '}
             from University of South Florida, USA.
           </li>          
