@@ -55,7 +55,10 @@ export function News(): ReactElement {
           </li>          
           <li>
             <b>Aug. 2024: </b> We give a warm welcome to Sofía Álvarez, who has started the Master of Science in Data Science.
-          </li>                    
+          </li>        
+          <li>
+            <b>Aug. 2024: </b> Cristobal Heredia has started a new position as a Phd. Student at Univesity of South Florida, USA.
+          </li> 		
           <li>
             <b>July 2024: </b> Alfonso Tobar has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li>          
@@ -80,9 +83,6 @@ export function News(): ReactElement {
           <li>
             <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
           </li>                    
-          <li>
-            <b>Jan. 2024: </b> Cristobal Heredia has started a new position as a Phd. Student at Univesity of South Florida, USA.
-          </li> 
           <li>
             <b>Jan. 2024: </b> Our collaborator Enrique Canessa has won a FONDECYT fund research, by ANID, Chile.
           </li> 
