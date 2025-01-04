@@ -9,7 +9,7 @@ export function Awards(): ReactElement {
         <ul className="news-list">
           <li>
             <b>July 2024: </b> Prof. Sebastián Moreno received{' '} 
-            <strong>Outstanding academic performance 2023</strong>{' '}
+            <strong>Outstanding academic performance 2023 award</strong>{' '}
             from Universidad Adolfo Ibáñez.
           </li>
           <li>
@@ -19,17 +19,17 @@ export function Awards(): ReactElement {
           </li>          
           <li>
             <b>May 2024: </b> Cristobal Heredia received{' '} 
-            <strong>Faculty of Engineering and Science prize</strong>{' '}
+            <strong>Faculty of Engineering and Science award</strong>{' '}
             from Universidad Adolfo Ibáñez.
           </li>          
           <li>
-            <b>Dec. 2023: </b> Prof. Sebastian Moreno received {' '}
+            <b>Dec. 2023: </b> Prof. Sebastian Moreno was {' '}
             <strong>top-reviewer</strong>{' '}
             at the Thirty-Seventh Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/Conferences/2023">NeurIPS</a>).
           </li>
           <li>
             <b>July 2023: </b> Prof. Sebastián Moreno received  {' '}
-            <strong>Outstanding academic performance 2022</strong> {' '}
+            <strong>Outstanding academic performance 2022 award</strong> {' '}
             from Universidad Adolfo Ibáñez.
           </li>
           <li>
@@ -49,12 +49,12 @@ export function Awards(): ReactElement {
           </li>
           <li>
             <b>Dec. 2022: </b>Prof.Sebastian Moreno received{' '}
-            <strong>Best teacher Award</strong>{' '}
+            <strong>Best teacher award</strong>{' '}
             from master of Data Science program, Universidad Adolfo Ibáñez.
           </li>
           <li>
             <b>Dec. 2022: </b> Valentina Martinez received{' '} 
-            <strong>Adolfo Ibáñez Boggiano prize</strong>{' '}
+            <strong>Adolfo Ibáñez Boggiano award</strong>{' '}
             from Universidad Adolfo Ibáñez.
           </li>                    
           <li>
