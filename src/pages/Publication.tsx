@@ -1,58 +1,43 @@
 import { ReactElement, useEffect, useState } from 'react';
-
 import { GridLoader } from 'react-spinners';
 import {
   LiteratureEntry,
-  Literatures,
-  LiteratureAuthor,
+  Literatures
 } from 'react-paper-list';
-import axios from 'axios';
+import { publicationData } from './publicationData';
 
 export function Publication(): ReactElement {
-  const [papers, setPapers] = useState([] as LiteratureEntry[]);
+  const [papers, setPapers] = useState<LiteratureEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchPromise = new Promise<LiteratureEntry[]>((resolve) => {
-      axios
-        .get(
-          'https://castlelab.github.io/selected-publications/public/bundle.json',
-        )
-        .then((resp) => {
-          console.log('Fetched data: ', resp.data);
-          const papers: LiteratureEntry[] = resp.data.map(
-            (d: any, index: number) => {
-              return {
-                id: index,
-                title: d.title,
-                date: new Date(d.date),
-                type: 'Conference Paper',
-                authors: d.authors.map((a: any) => {
-                  return {
-                    lastName: a,
-                    firstName: '',
-                  } as LiteratureAuthor;
-                }),
-                venue: d.venue,
-                venueShort: d.venueShort,
-                tags: d.tags,
-                awards: d.awards,
-                paperUrl: d.paperUrl,
-                abstract: d.abstract,
-                bibtex: d.bibtex,
-                projectUrl: d.projectUrl,
-                slidesUrl: d.slidesUrl,
-              } as unknown as LiteratureEntry;
-            },
-          );
-          resolve(papers);
-        });
-    });
+    const processedPapers: LiteratureEntry[] = publicationData.map(
+      (d, index) => ({
+        id: index.toString(), // Convert to string to match LiteratureEntry type
+        title: d.title,
+        date: new Date(d.date),
+        type: 'Conference Paper',
+        authors: d.authors.map((authorName: string) => ({
+          lastName: authorName.split(',')[0].trim(),
+          firstName: authorName.split(',')[1]?.trim() || '',
+        })),
+        venue: d.venue,
+        venueShort: d.venueShort,
+        tags: d.tags,
+        awards: d.awards,
+        paperUrl: d.paperUrl,
+        abstract: d.abstract,
+        bibtex: d.bibtex,
+        projectUrl: d.projectUrl,
+        slidesUrl: d.slidesUrl,
+      })
+    );
 
-    fetchPromise.then((r) => {
-      setPapers(r);
+    // Simulate network delay
+    setTimeout(() => {
+      setPapers(processedPapers);
       setLoading(false);
-    });
+    }, 1000);
   }, []);
 
   return (
@@ -78,8 +63,6 @@ export function Publication(): ReactElement {
             listHeader={'Published Papers'}
             defaultSortCriterion="date"
             defaultReverse={true}
-            // enableSort
-            // enableFilter
             enableSearch
             enableScrollTopButton
           />
