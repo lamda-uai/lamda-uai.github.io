@@ -12,23 +12,23 @@ export function Projects(): ReactElement {
           </li>
           <li>
             Development and implementation of an automatic coding algorithm for content analysis and a method to calculate coverage in the collection of conceptual property norms.<br />
-            FONDECYT #1240075, Chile (2024-2028). Director: E. Canessa; Co-director: S. Chaigneau; Technical personnel: S. Moreno and D. Ramos.
+            FONDECYT #1240075, Chile (2024-2028). Director: E. Canessa; Co-director: S. Chaigneau; Technical personnel: S. Moreno and D. Ramos.<br />
           </li>          
           <li>
             Statistical relational models for OD-matrix estimation and behavioral mobility patterns.<br />
-            FONDECYT #11230076, Chile (2023-2026). Director: S. Moreno; Researchers: S. Álvarez, C. Heredia, A. Tobar; Technical Personnel: A. Bravo-Diaz, A. Ghent, D. Ramos.
+            FONDECYT #11230076, Chile (2023-2026). Director: S. Moreno; Researchers: S. Álvarez, C. Heredia, A. Tobar; Technical Personnel: A. Bravo-Diaz, A. Ghent, D. Ramos.<br />
           </li>          
           <li>
             A method for studying shared meaning in cultural groups.<br />
-            Opportunity Award, J. S. McDonnel Foundation, USA (2022-2025). Director: S. Chaigneau; Co-director: E. Canessa and S. Moreno; Researcher: D. Ramos.
+            Opportunity Award, J. S. McDonnel Foundation, USA (2022-2025). Director: S. Chaigneau; Co-director: E. Canessa and S. Moreno; Researcher: D. Ramos.<br />
           </li>          
           <li>
             A descriptive and dynamic model of the property listing task for the characterization between abstract and concrete concepts.<br />
-            FONDECYT #1200139, Chile (2022-2024), Director: E. Canessa; Co-director: S. Chaigneau; Technical personnel: S. Moreno.
+            FONDECYT #1200139, Chile (2022-2024), Director: E. Canessa; Co-director: S. Chaigneau; Technical personnel: S. Moreno.<br />
           </li>          
           <li>
             Development of big data technologies to How to avoid high drop out rate of first-year university students.<br />
-            FONDEF #ID18I10216, Chile (2018-2020), Researcher: S. Moreno and D. Opazo.
+            FONDEF #ID18I10216, Chile (2018-2020), Researcher: S. Moreno and D. Opazo.<br />
           </li>          
         </ul>
       </div>
