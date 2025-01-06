@@ -14,7 +14,7 @@ export function Projects(): ReactElement {
         </ul>
         <ul className="project_ul">         
           <li>
-            Development and implementation of an automatic coding algorithm for content analysis and a method to calculate coverage in the collection of conceptual property norms.<br />
+            Development and implementation of an automatic coding algorithm for content analysis and a method to calculate coverage in the generation of conceptual property norms.<br />
             FONDECYT #1240075, Chile (2024-2028).<br />
             Director: E. Canessa; Co-director: S. Chaigneau; Technical personnel: S. Moreno and D. Ramos.
           </li>     
@@ -29,7 +29,7 @@ export function Projects(): ReactElement {
         <ul className="project_ul">         
           <li>
             A method for studying shared meaning in cultural groups.<br />
-            Opportunity Award, J. S. McDonnel Foundation, USA (2022-2025).<br />
+            Opportunity Award, J. S. McDonnell Foundation, USA (2022-2025).<br />
             Director: S. Chaigneau; Co-director: E. Canessa and S. Moreno; Researcher: D. Ramos.
           </li>          
         </ul>
@@ -42,9 +42,9 @@ export function Projects(): ReactElement {
         </ul>
         <ul className="project_ul">         
           <li>
-            Development of big data technologies to How to avoid high drop out rate of first-year university students.<br />
+            Development of big data technologies to avoid high dropout rates of first-year university students.<br />
             FONDEF #ID18I10216, Chile (2018-2020).<br />
-            Researcher: S. Moreno and D. Opazo.
+            Researchers: S. Moreno and D. Opazo.
           </li>          
         </ul>
       </div>
