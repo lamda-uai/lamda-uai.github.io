@@ -140,7 +140,7 @@ export function News(): ReactElement {
             <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Journal Paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
           </li> 
           <li>
-            <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000332">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society. Congrats to Hughes.
+            <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000332">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society.
           </li>          		
           <li>
             <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000380">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society. Congrats to R. Martinez.
@@ -187,26 +187,23 @@ export function News(): ReactElement {
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
 	  <li>
-            <b>May 2021: </b> Paper accepted at the XXI Congreso Panamericano de Transporte y Logística <a href="https://www.easychair.org/cfp/XXI-PANAM-LIMA-2021">PANAM 2021</a>. Congrats to Hughes.
+            <b>May 2021: </b> Paper accepted at the XXI Congreso Panamericano de Transporte y Logística <a href="https://www.easychair.org/cfp/XXI-PANAM-LIMA-2021">PANAM 2021</a>.
           </li> 		
           <li>
-            <b>Jan. 2021: </b> Daniela Miranda has successfully defended her bachelor in Engineering, Congratulations!!!
+            <b>Jan. 2021: </b> Daniela Miranda has successfully defended her bachelor's in Engineering, Congratulations!!!
           </li> 
           <li>
-            <b>Jan. 2021: </b> Martín Pinto has successfully defended his bachelor in Engineering, Congratulations!!!
+            <b>Jan. 2021: </b> Martín Pinto has successfully defended his bachelor's in Engineering, Congratulations!!!
           </li> 
 	</ul>
         <ul className="news-list">		
 	  <li>
             <b>July 2020: </b> <a href="https://doi.org/10.1007/s10339-020-00985-5">Journal paper published</a> in <a href="https://link.springer.com/journal/10339">Cognitive Processing</a> (WOS-Q4).
           </li>
-          <li>
-            <b>March 2020: </b> Sebastian Hughes has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
-          </li>           
         </ul>
         <ul className="news-list">		
 	  <li>
-            <b>Dec. 2019: </b> <a href="https://doi.org/10.1016/j.trc.2019.10.018">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies">Transportation Research Part C: Emerging Technologies</a> (WOS-Q4). Congrats to Hughes.
+            <b>Dec. 2019: </b> <a href="https://doi.org/10.1016/j.trc.2019.10.018">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies">Transportation Research Part C: Emerging Technologies</a> (WOS-Q1).
           </li>
         </ul>
       </div>
