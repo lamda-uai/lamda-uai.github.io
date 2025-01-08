@@ -17,15 +17,15 @@ interface PublicationData {
 
 export const publicationData: PublicationData[] = [
   {
-    title: "An Example Research Paper Title About Something Interesting",
-    date: "2024-01-15",
-    authors: ["Smith, John", "Doe, Jane", "Johnson, Bob"],
-    venue: "International Conference on Example Research 2024",
-    venueShort: "ICER 2024",
-    tags: ["Machine Learning", "Artificial Intelligence"],
-    awards: ["Best Paper Award"],
-    paperUrl: "https://example.com/paper.pdf",
-    abstract: "This is an example abstract that describes the research paper's content and findings. It should be detailed enough to give readers a good understanding of the work.",
+    title: "WordListsAnalytics: an R package for multiple data analysis of Property Listing Tasks",
+    date: "09-2024",
+    authors: ["C. Heredia, S. Moreno, E. Canessa, and S. Chaigneau"],
+    venue: "SoftwareX",
+    venueShort: [],
+    tags: ["Property Listing Task","Semantic fluency task","Coverage","Sample size","Parameter estimation","Cluster and shift count"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1016/j.softx.2024.101842",
+    abstract: "WordListsAnalytics allows sounder analyses of data collected in Property listing tasks, Semantic fluency tasks (SFT), and other related methods by calculating sample sizes to attain a specified coverage and estimating population parameters that characterize those tasks. Relatedly, WordListsAnalytics calculates agreement probability between pairs of concepts, which gauges how similar are the listed properties and counts the number of clusters and shifts in SFT data.",
   
     projectUrl: "https://example.com/project",
     slidesUrl: "https://example.com/slides.pdf"
