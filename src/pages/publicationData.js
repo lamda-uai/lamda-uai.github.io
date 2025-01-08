@@ -42,4 +42,17 @@ export const publicationData: PublicationData[] = [
     projectUrl: "",
     slidesUrl: ""
   }
+  {
+    title: "Urban Origin-Destination Travel Time Estimation using K-Nearest Neighbor-Based Methods",
+    date: "2024-04",
+    authors: ["Lagos Felipe","Moreno Sebastian","Yushimito Wilfredo","Brstilo Tomas"],
+    venue: "Mathematics, vol 12, 8, 1255",
+    venueShort: "Mathematics",
+    tags: ["origin–destination","travel time","machine learning","k-nearest neighbor","adaptive algorithm","haversine distance"],
+    awards: [],
+    paperUrl: "https://www.mdpi.com/2227-7390/12/8/1255",
+    abstract: "Improving the estimation of origin–destination (O-D) travel times poses a formidable challenge due to the intricate nature of transportation dynamics. Current deep learning models often require an overwhelming amount of data, both in terms of data points and variables, thereby limiting their applicability. Furthermore, there is a scarcity of models capable of predicting travel times with basic trip information such as origin, destination, and starting time. This paper introduces novel models rooted in the k-nearest neighbor (KNN) algorithm to tackle O-D travel time estimation with limited data. These models represent innovative adaptations of weighted KNN techniques, integrating the haversine distance of neighboring trips and incorporating correction factors to mitigate prediction biases, thereby enhancing the accuracy of travel time estimations for a given trip. Moreover, our models incorporate an adaptive heuristic to partition the time of day, identifying time blocks characterized by similar travel-time observations. These time blocks facilitate a more nuanced understanding of traffic patterns, enabling more precise predictions. To validate the effectiveness of our proposed models, extensive testing was conducted utilizing a comprehensive taxi trip dataset sourced from Santiago, Chile. The results demonstrate substantial improvements over existing state-of-the-art models (e.g., MAPE between 35 to 37% compared to 49 to 60% in other methods), underscoring the efficacy of our approach. Additionally, our models unveil previously unrecognized patterns in city traffic across various time blocks, shedding light on the underlying dynamics of urban mobility.",
+    projectUrl: "",
+    slidesUrl: ""
+  }
 ];
