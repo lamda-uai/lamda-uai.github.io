@@ -184,6 +184,9 @@ export function News(): ReactElement {
             <b>Oct. 2021: </b> <a href="https://doi.org/10.1111/cogs.13044">Journal paper published</a> in <a href="https://onlinelibrary.wiley.com/journal/15516709">Cognitive Science</a> (WOS-Q2). Congrats to Opazo.
           </li>        		
           <li>
+            <b>Aug. 2021: </b> Matias Coustasse has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
+          </li> 
+          <li>
             <b>July 2021: </b> Diego Opazo has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
           </li> 
 	  <li>
