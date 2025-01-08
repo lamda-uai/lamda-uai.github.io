@@ -60,11 +60,24 @@ export function People(): ReactElement {
                 />
               </div>
             <h3>Diego Opazo</h3>
-            <p>MSDS Graduate (2021)</p>
+            <p>MSc Graduate (2021)</p>
             <h5>Triada Solutions</h5>
             <h5>Data Scientist</h5>
           </div>
-
+          
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/ValentinaMartinez.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>Valentina Martinez</h3>
+            <p>MSc Graduate (2022)</p>
+            <h5>Cotalker</h5>
+            <h5>Product Lead</h5>
+          </div>
           
 
           <div className="clearfix"> </div>
