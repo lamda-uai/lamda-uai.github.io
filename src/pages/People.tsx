@@ -74,12 +74,38 @@ export function People(): ReactElement {
                 />
               </div>
             <h3>Valentina Martinez</h3>
-            <p>MSc Graduate (2022)</p>
+            <p>Master of Science(2022)</p>
             <h5>Cotalker</h5>
             <h5>Product Lead</h5>
           </div>
           
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/DanielaMiranda.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>Daniela Miranda</h3>
+            <p>Bachelor's in Engineering (2021)</p>
+            <h5>Cotalker</h5>
+            <h5>Customer Success Lead</h5>
+          </div>
 
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/MartinPinto.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>Martín Pinto</h3>
+            <p>Bachelor's in Engineering (2021)</p>
+            <h5>Coderhub</h5>
+            <h5>Product Owner</h5>
+          </div>          
           <div className="clearfix"> </div>
         </div>
       </div>
