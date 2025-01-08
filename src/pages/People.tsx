@@ -63,8 +63,8 @@ export function People(): ReactElement {
               Diego Opazo
             </h3>
             <p>MSDS Graduate (2021)</p>
-            <p>Triada Solutions</p>
-            <p>Data Scientist</p>
+            <h5>Triada Solutions</h5>
+            <h4>Data Scientist</h4>
 
           </div>
 
