@@ -141,7 +141,7 @@ export function People(): ReactElement {
               </div>
             <h3>
               <a href="https://www.linkedin.com/in/barbsp/">Bárbara Salazar</a>
-            </h3>
+            </h3> 
             <p>MSc. in Engineering (2022)</p>
             <h5>Akloe</h5>
             <h5>Consultant</h5>
