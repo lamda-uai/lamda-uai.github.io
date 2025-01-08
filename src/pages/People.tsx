@@ -52,19 +52,20 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
-            <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/moreno.jpg"
+                  src="images/DiegoOpazo.jpg"
                   className="portrait-round"
                 />
               </div>
-            </a>
             <h3>
-              <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">Cristobal Heredia</a>
+              Diego Opazo
             </h3>
-            <p>MSc Graduate</p>
+            <p>MSDS Graduate (2021)</p>
+            <p>Triada Solutions</p>
+            <p>Data Scientist</p>
+
           </div>
 
           
