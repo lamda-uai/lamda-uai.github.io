@@ -65,6 +65,7 @@ export function People(): ReactElement {
             <p>MSc. in Engineering (2024)</p>
             <h5>???</h5>
             <h5>Data Analyst</h5>
+            <h4></h4>
           </div> 
 
           <div className="banner-bottom-left">
