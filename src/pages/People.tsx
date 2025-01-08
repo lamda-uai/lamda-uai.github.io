@@ -59,13 +59,10 @@ export function People(): ReactElement {
                   className="portrait-round"
                 />
               </div>
-            <h3>
-              Diego Opazo
-            </h3>
+            <h3>Diego Opazo</h3>
             <p>MSDS Graduate (2021)</p>
             <h5>Triada Solutions</h5>
-            <h4>Data Scientist</h4>
-
+            <h5>Data Scientist</h5>
           </div>
 
           
