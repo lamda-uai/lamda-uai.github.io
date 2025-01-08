@@ -167,7 +167,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/ValentinaMartinez.jpg"
+                  src="images/ValentinaMartinez.jpeg"
                   className="portrait-round"
                 />
               </div>
@@ -199,7 +199,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/DiegoOpazo.jpg"
+                  src="images/DiegoOpazo.jpeg"
                   className="portrait-round"
                 />
               </div>
