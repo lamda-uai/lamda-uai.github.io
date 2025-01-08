@@ -18,17 +18,16 @@ interface PublicationData {
 export const publicationData: PublicationData[] = [
   {
     title: "WordListsAnalytics: an R package for multiple data analysis of Property Listing Tasks",
-    date: "09-2024",
-    authors: ["C. Heredia, S. Moreno, E. Canessa, and S. Chaigneau"],
+    date: "2024-04",
+    authors: ["Heredia, Cristobal", "Moreno, Sebastian", "Canessa, Enrique", "Chaigneau Sergio"],
     venue: "SoftwareX",
-    venueShort: [],
+    venueShort: "SoftwareX",
     tags: ["Property Listing Task","Semantic fluency task","Coverage","Sample size","Parameter estimation","Cluster and shift count"],
     awards: [],
     paperUrl: "https://doi.org/10.1016/j.softx.2024.101842",
     abstract: "WordListsAnalytics allows sounder analyses of data collected in Property listing tasks, Semantic fluency tasks (SFT), and other related methods by calculating sample sizes to attain a specified coverage and estimating population parameters that characterize those tasks. Relatedly, WordListsAnalytics calculates agreement probability between pairs of concepts, which gauges how similar are the listed properties and counts the number of clusters and shifts in SFT data.",
-  
-    projectUrl: "https://example.com/project",
-    slidesUrl: "https://example.com/slides.pdf"
+    projectUrl: "",
+    slidesUrl: ""
   },
   {
     title: "Another Research Paper with Different Topics",
