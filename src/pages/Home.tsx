@@ -7,7 +7,7 @@ export function Home(): ReactElement {
         <div className="container">
           <div className="banner-info">
             <h2>LAMDA-UAI</h2>
-            <p> A Machine Learning and Deep Learning Lab</p>
+            <p> A Machine Learning and Deep Learning Lab </p>
           </div>
         </div>
       </div>
