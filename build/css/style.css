@@ -147,6 +147,7 @@ body,html{
 /*-- banner-bottom --*/
 .banner-bottom, .news, .news-content, .publication-content {
 	padding:3em 0;
+	min-height: 350px;
 	}
 .banner-bottom-left{
 	float:left;
