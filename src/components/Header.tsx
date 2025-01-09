@@ -20,7 +20,7 @@ export function Header(): ReactElement {
           <div className="header-part">
             <div className="head-logo">
               <a href="index.html">
-                <img src="images/uai-ing-logo.png" alt=" " height="70px"></img>
+                <img src="images/LAMDA-UAI.png" alt=" " height="70px"></img>
               </a>
             </div>
             <div className="top-nav">
