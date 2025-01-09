@@ -35,7 +35,7 @@ jobs:
         run: corepack prepare yarn@4.6.0 --activate
           
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --legacy-peer-deps
         
       - name: Update Browserslist
         run: npx update-browserslist-db@latest
