@@ -36,9 +36,6 @@ jobs:
           
       - name: Install dependencies
         run: yarn install
-
-      - name: Update CaniuseLite
-        run: npm install caniuse-lite
         
       - name: Update Browserslist
         run: npx update-browserslist-db@latest
