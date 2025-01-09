@@ -48,7 +48,7 @@ export function News(): ReactElement {
             <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
           </li>						
           <li>
-            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Journal paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to Heredia.
+            <b>Sept. 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024002139">Journal paper published</a> in journal <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a> (WOS-Q2). Congrats to .
           </li>          
           <li>
             <b>Sept. 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
@@ -101,7 +101,7 @@ export function News(): ReactElement {
             <b>Nov. 2023: </b> Cristobal Nazar has successfully defended his Master of Science in Engineering, thesis, Congratulations!!!
           </li> 
           <li>
-            <b>Oct. 2023: </b> <a href="https://doi.org/10.1109/SCCC59417.2023.10315748">Conference paper published</a> at the XLII International Conference of the Chilean Computer Science Society. Congrats to Heredia.
+            <b>Oct. 2023: </b> <a href="https://doi.org/10.1109/SCCC59417.2023.10315748">Conference paper published</a> at the XLII International Conference of the Chilean Computer Science Society. Congrats to Tobar.
           </li>          		
           <li>
             <b>Oct. 2023: </b> Alejandra Bravo-Diaz presented at Escuela Predoctoral, Universidad Adolfo Ibáñez.
