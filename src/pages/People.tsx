@@ -39,7 +39,7 @@ export function People(): ReactElement {
               </div>
             </a>
             <h3>
-              <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">Agustin Ghent</a>
+              <a href="#">Agustin Ghent</a>
             </h3>
             <p>MSc Student</p>
           </div>
