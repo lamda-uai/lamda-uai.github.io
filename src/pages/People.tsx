@@ -5,7 +5,7 @@ export function People(): ReactElement {
     <>
       <div className="banner-bottom">
         <div className="container people">
-          <h2>Academics</h2>
+          <h2>Academics</h2> 
 
           <div className="banner-bottom-left">
             <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">
