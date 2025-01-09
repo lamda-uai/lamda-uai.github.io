@@ -18,6 +18,19 @@ interface PublicationData {
 }
 
 export const publicationData: PublicationData[] = [
+    {
+    title: "CNN Sensitivity Analysis for Land Cover Map Models Using Sparse and Heterogeneous Satellite Data",
+    date: "2024-11",
+    authors: ["Moreno, Sebastian","Lopatin, Javier","Corvalan, Diego","Bravo-Diaz Alejandra"],
+    venue: "The 27th Iberoamerican Congress on Pattern Recognition",
+    venueShort: "CIARP",
+    tags: ["Land cover maps","Deep learning","Transfer learning"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1007/978-3-031-76607-7_5",
+    abstract: "Land cover maps provide detailed information on the land use of territories, which is useful for public policy making. Constant changes in the landscape limit the usefulness of these maps over time, so they need to be constantly updated. In this context, remote sensing images combined with the use of deep neural networks can be used for this purpose. Although several models are trained on different datasets, we do not know their ability to transfer the learned patterns to new data. In this paper, we evaluate several pre-trained semantic segmentation models on deep convolutional neural networks (CNN) using freely available global RGB data from Sentinel-2. Four CNN models with 32 different architectures were evaluated on data from three continents, on seven different classes. The results show that the best model is the PSPNet with seresnet18, obtaining a test macro F1 score of 0.4950 when the model is trained with data augmentation and fine-tuning.",
+    projectUrl: "",
+    slidesUrl: ""
+  },  
   {
     title: "WordListsAnalytics: an R package for multiple data analysis of Property Listing Tasks",
     date: "2024-09",
@@ -44,6 +57,19 @@ export const publicationData: PublicationData[] = [
     projectUrl: "",
     slidesUrl: ""
   },
+    {
+    title: "ODMeans: An R package for global and local cluster detection for Origin–Destination GPS data",
+    date: "2024-05",
+    authors: ["Heredia, Cristobal", "Moreno, Sebastian", "Yushimito, Wilfredo"],
+    venue: "SoftwareX, vol 26, 101732",
+    venueShort: "SoftwareX",
+    tags: ["Machine learning","k-means","Odmeans","R"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1016/j.softx.2024.101842",
+    abstract: "The ODMeans R package implements the OD-Means model, a two-layer hierarchical clustering algorithm designed for extracting both global and local travel patterns from Origin–Destination Pairs (OD-Pairs). In contrast to existing models, OD-Means automates cluster determination and offers advantages such as smaller Within-Cluster Distance (WCD) and dual hierarchies. The package includes functions for applying the model and visualizing the results on maps. Using real taxi data from Santiago, Chile, we demonstrate the package’s capabilities, showcasing its flexibility and impact on understanding urban mobility patterns.",
+    projectUrl: "",
+    slidesUrl: ""
+  },  
   {
     title: "Urban Origin-Destination Travel Time Estimation using K-Nearest Neighbor-Based Methods",
     date: "2024-04",
