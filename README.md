@@ -5,7 +5,7 @@ This repository contains the source code for the LAMDA-UAI research group websit
 ## Prerequisites
 
 - Node.js 
-- Yarn package manager
+- npm package manager
 - Git
 
 ## Getting Started
@@ -18,12 +18,12 @@ cd lamda-uai.github.io
 
 2. **Install dependencies**
 ```bash
-yarn install
+npm install
 ```
 
 3. **Start development server**
 ```bash
-yarn start
+npm start
 ```
 
 The site will be available at `http://localhost:3000`
