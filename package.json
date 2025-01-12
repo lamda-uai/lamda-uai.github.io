@@ -31,7 +31,21 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2"
+    "@types/react-dom": "^17.0.2",
+    "ajv": "^8.0.0",
+    "ajv-keywords": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5",
+    "@types/eslint": "^8",
+    "@types/gh-pages": "^6",
+    "@types/lodash": "^4",
+    "@types/prettier": "^2",
+    "ajv": "^8.0.0",
+    "ajv-keywords": "^5.0.0",
+    "eslint": "^8.44.0",
+    "gh-pages": "^6.2.0",
+    "prettier": "2.8.8"
   },
   "scripts": {
     "start": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts start",
@@ -60,16 +74,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/bootstrap": "^5",
-    "@types/eslint": "^8",
-    "@types/gh-pages": "^6",
-    "@types/lodash": "^4",
-    "@types/prettier": "^2",
-    "eslint": "^8.44.0",
-    "gh-pages": "^6.2.0",
-    "prettier": "2.8.8"
   },
   "peerDependencies": {
     "@popperjs/core": "^2.11.0",
