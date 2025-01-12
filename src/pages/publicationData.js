@@ -82,5 +82,71 @@ export const publicationData: PublicationData[] = [
     abstract: "Improving the estimation of origin–destination (O-D) travel times poses a formidable challenge due to the intricate nature of transportation dynamics. Current deep learning models often require an overwhelming amount of data, both in terms of data points and variables, thereby limiting their applicability. Furthermore, there is a scarcity of models capable of predicting travel times with basic trip information such as origin, destination, and starting time. This paper introduces novel models rooted in the k-nearest neighbor (KNN) algorithm to tackle O-D travel time estimation with limited data. These models represent innovative adaptations of weighted KNN techniques, integrating the haversine distance of neighboring trips and incorporating correction factors to mitigate prediction biases, thereby enhancing the accuracy of travel time estimations for a given trip. Moreover, our models incorporate an adaptive heuristic to partition the time of day, identifying time blocks characterized by similar travel-time observations. These time blocks facilitate a more nuanced understanding of traffic patterns, enabling more precise predictions. To validate the effectiveness of our proposed models, extensive testing was conducted utilizing a comprehensive taxi trip dataset sourced from Santiago, Chile. The results demonstrate substantial improvements over existing state-of-the-art models (e.g., MAPE between 35 to 37% compared to 49 to 60% in other methods), underscoring the efficacy of our approach. Additionally, our models unveil previously unrecognized patterns in city traffic across various time blocks, shedding light on the underlying dynamics of urban mobility.",
     projectUrl: "",
     slidesUrl: ""
-  }
+  },
+  {
+    title: "Hate Speech Recognition in Chilean Tweets",
+    date: "2023-10",
+    authors: ["Tobar-Arancibia, Alfonso","Moreno, Sebastian","Lopatin, Javier"],
+    venue: "The 42nd IEEE International Conference of the Chilean Computer Science Society",
+    venueShort: "SCCC",
+    tags: ["Hate speech","Stacking","machine learning"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1109/SCCC59417.2023.10315748",
+    abstract: "Hate speech, which targets specific groups based on race, religion, or sexual orientation, is a growing concern, especially on social media. Detecting hate speech is a critical research area, but most models are developed in English, leaving a gap for other languages like Spanish. Spanish presents additional challenges due to its regional variants and slang. In this paper, we introduce HateStack, the winning model of the 2022 Datathon at Universidad Técnica Federico Santa Maria, Chile, designed to detect hate speech in Chilean tweets. HateStack is a two-level ensemble model comprising a feature extraction process, five Level-l models, and a logistic regression as a second-level model. The results demonstrate that HateStack outperforms other ensemble models and RoBERTuito, a transformer-based deep learning model tailored for hate speech detection on tweets. Developing such models in non-English languages is important to detect hate speech effectively.",
+    projectUrl: "",
+    slidesUrl: ""
+  }, 
+  {
+    title: "Describing and understanding the time course of the property listing task",
+    date: "2023-09",
+    authors: ["Canessa, Enrique","Chaigneau, Sergio","Moreno, Sebastián"],
+    venue: "Cognitive Processing, Volume 25, pages 61–74",
+    venueShort: "Cognitive Processing",
+    tags: ["Concepts","Property listing task","Conceptual properties norms","Semantic access","Mathematical model"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1007/s10339-023-01160-2",
+    abstract: "To study linguistically coded concepts, researchers often resort to the Property Listing Task (PLT). In a PLT, participants are asked to list properties that describe a concept (e.g., for DOG, subjects may list “is a pet”, “has four legs”, etc.). When PLT data is collected for many concepts, researchers obtain Conceptual Properties Norms (CPNs), which are used to study semantic content and as a source of control variables. Though the PLT and CPNs are widely used across psychology, only recently a model that describes the listing course of a PLT has been developed and validated. That original model describes the listing course using order of production of properties. Here we go a step beyond and validate the model using response times (RT), i.e., the time from cue onset to property listing. Our results show that RT data exhibits the same regularities observed in the previous model, but now we can also analyze the time course, i.e., dynamics of the PLT. As such, the RT validated model may be applied to study several similar memory retrieval tasks, such as the Free Listing Task, Verbal Fluidity Task, and to research related cognitive processes. To illustrate those kinds of analyses, we present a brief example of the difference in PLT’s dynamics between listing properties for abstract versus concrete concepts, which shows that the model may be fruitfully applied to study concepts.",
+    projectUrl: "",
+    slidesUrl: ""
+  }, 
+  {
+    title: "AC-PLT: An algorithm for computer-assisted coding of semantic property listing data",
+    date: "2023-09",
+    authors: ["Canessa, Enrique","Chaigneau, Sergio","Moreno, Sebastián"],
+    venue: "Behavior Research Methods, Volume 56, pages 3366–3379",
+    venueShort: "BRM",
+    tags: ["Machine learning framework","Property listing task","Assisted codification","Coding reliability"],
+    awards: [],
+    paperUrl: "https://doi.org/10.3758/s13428-023-02260-9",
+    abstract: "In this paper, we present a novel algorithm that uses machine learning and natural language processing techniques to facilitate the coding of feature listing data. Feature listing is a method in which participants are asked to provide a list of features that are typically true of a given concept or word. This method is commonly used in research studies to gain insights into people's understanding of various concepts. The standard procedure for extracting meaning from feature listings is to manually code the data, which can be time-consuming and prone to errors, leading to reliability concerns. Our algorithm aims at addressing these challenges by automatically assigning human-created codes to feature listing data that achieve a quantitatively good agreement with human coders. Our preliminary results suggest that our algorithm has the potential to improve the efficiency and accuracy of content analysis of feature listing data. Additionally, this tool is an important step toward developing a fully automated coding algorithm, which we are currently preliminarily devising.",
+    projectUrl: "",
+    slidesUrl: ""
+  }, 
+  {
+    title: "The Potential of Battery Electric Taxis in Santiago de Chile",
+    date: "2023-05",
+    authors: ["Yushimito Wilfredo","Moreno, Sebastián","Miranda, Daniela"],
+    venue: "Sustainability, 15(11), 8689",
+    venueShort: "Sustainability",
+    tags: ["Battery electric vehicles","taxis","feasibility","charging stations","Chile"],
+    awards: [],
+    paperUrl: "https://doi.org/10.3390/su15118689",
+    abstract: "Given the semi-private nature of the mode, the conversion of taxi vehicles to electric requires a feasibility analysis, as it can impact their operations and revenues. In this research, we assess the feasibility of taxi companies in Santiago de Chile operating with battery electric vehicles (BEVs), considering the current electric mobility infrastructure of the city. We used a large database of GPS pulses provided by a taxi app to obtain a complete picture of typical taxi trips and operations in the city. Then, we performed an assessment of the feasibility of the fleet conversion by considering battery capacity, driving range, proximity to recharging stations, and charging power. The results are promising, as the number of completed trips ranges from 87.35% to 94.34%, depending on the BEV driving range. The analysis shows the importance of installing fast charging points in the locations or BEV driving ranges.",
+    projectUrl: "",
+    slidesUrl: ""
+  }, 
+
+  {
+    title: "Analysis of the Characteristics and Speed of Spread of the “FUNA” on Twitter",
+    date: "2023-04",
+    authors: ["Moreno, Sebastián","Bórquez-Paredes, Danilo","Martinez, Valentina"],
+    venue: "Mathematics, 11(7), 1749",
+    venueShort: "Mathematics",
+    tags: ["funa","social network analysis","network structure analysis","information spreading on social media"],
+    awards: [],
+    paperUrl: "https://doi.org/10.3390/math11071749",
+    abstract: "The funa is a prevalent concept in Chile that aims to expose a person’s bad behavior, punish the aggressor publicly, and warn the community about it. Despite its massive use on the social networks of Chilean society, the real dissemination of funas among communities is unknown. In this paper, we extract, generate, analyze, and compare the Twitter social network’s spread of three tweets related to “funas” against three other trending topics, through the analysis of global network characteristics over time (degree distribution, clustering coefficient, hop plot, and betweenness centrality). As observed, funas have a specific behavior, and they disseminate as quickly as a common tweet or more quickly; however, they spread thanks to several network users, generating a cohesive group.",
+    projectUrl: "",
+    slidesUrl: ""
+  }  
 ];
