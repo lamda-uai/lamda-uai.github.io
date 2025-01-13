@@ -86,7 +86,7 @@ export function People(): ReactElement {
               <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">Javier Lopatin</a>
             </h3>
             <p>Assistant Professor</p>
-            <p><a href="https://pure.uai.cl/es/persons/jorge-acuña/">LAB XXX</a></p>
+            <p><a href="https://www.javierlopatin.com">UAI Earth Observation</a></p>
           </div>
 
           <div className="banner-bottom-left">
