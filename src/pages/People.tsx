@@ -89,6 +89,21 @@ export function People(): ReactElement {
             <p><a href="https://pure.uai.cl/es/persons/jorge-acuña/">LAB XXX</a></p>
           </div>
 
+          <div className="banner-bottom-left">
+            <a href="https://ingenieria.uai.cl/profesor/wilfredo-yushimito/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/yushimito.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a https://ingenieria.uai.cl/profesor/wilfredo-yushimito/">Wilfredo Yushimito</a>
+            </h3>
+            <p>Associate Professor</p>
+          </div>          
           
           {/*  Students  */}
 
