@@ -5,7 +5,7 @@ export function People(): ReactElement {
     <>
       <div className="banner-bottom">
         <div className="container people">
-          <h2>Academics</h2> 
+          <h2>Academics and collaborators</h2> 
 
           <div className="banner-bottom-left">
             <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">
@@ -23,6 +23,73 @@ export function People(): ReactElement {
             <p>Associate Professor</p>
           </div>
 
+          <div className="banner-bottom-left">
+            <a href="https://pure.uai.cl/es/persons/jorge-acuña/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/acuna.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://pure.uai.cl/es/persons/jorge-acuña">Jorge Acuña</a>
+            </h3>
+            <p>Assistant Professor</p>
+            <p><a href="https://pure.uai.cl/es/persons/jorge-acuña/">LAB XXX</a></p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <a href="https://ingenieria.uai.cl/profesor/enrique-canessa/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/canessa.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://ingenieria.uai.cl/profesor/enrique-canessa/">Enrique Canessa</a>
+            </h3>
+            <p>Associate Professor</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <a href="https://psicologia.uai.cl/profesor/sergio-chaigneau/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/chaigneau.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://psicologia.uai.cl/profesor/sergio-chaigneau/">Sergio Chaigneau</a>
+            </h3>
+            <p>Full Professor</p>
+          </div>          
+          
+          <div className="banner-bottom-left">
+            <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/lopatin.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">Javier Lopatin</a>
+            </h3>
+            <p>Assistant Professor</p>
+            <p><a href="https://pure.uai.cl/es/persons/jorge-acuña/">LAB XXX</a></p>
+          </div>
+
+          
           {/*  Students  */}
 
           <div className="clearfix"> </div>
