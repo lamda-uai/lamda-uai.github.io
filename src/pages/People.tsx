@@ -100,7 +100,7 @@ export function People(): ReactElement {
               </div>
             </a>
             <h3>
-              <a https://ingenieria.uai.cl/profesor/wilfredo-yushimito/">Wilfredo Yushimito</a>
+              <a href="https://ingenieria.uai.cl/profesor/wilfredo-yushimito/">Wilfredo Yushimito</a>
             </h3>
             <p>Associate Professor</p>
           </div>          
