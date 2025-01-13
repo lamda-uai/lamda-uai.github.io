@@ -137,7 +137,7 @@ export function News(): ReactElement {
             <b>Dec. 2022: </b> We won the initiation FONDECYT fund research, by ANID, Chile.
           </li> 		
           <li>
-            <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Journal Paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Reserach Methods</a> (WOS-Q1).
+            <b>Dec. 2022: </b> <a href="https://doi.org/10.3758/s13428-022-02030-z">Journal Paper published</a> in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1).
           </li> 
           <li>
             <b>Nov. 2022: </b> <a href="https://doi.org/10.1109/SCCC57464.2022.10000332">Conference paper published</a> at the XLI International Conference of the Chilean Computer Science Society.
