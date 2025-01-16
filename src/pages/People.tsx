@@ -111,17 +111,17 @@ export function People(): ReactElement {
           <h2>Students</h2>
 
           <div className="banner-bottom-left">
-            <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">
+            <a href="https://www.linkedin.com/in/agustinsso">
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/moreno.jpg"
+                  src="images/ghent.jpg"
                   className="portrait-round"
                 />
               </div>
             </a>
             <h3>
-              <a href="https://www.linkedin.com/in/agustinsso/?originalSubdomain=cl">Agustin Ghent</a>
+              <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
             </h3>
             <p>MSc Student</p>
           </div>
