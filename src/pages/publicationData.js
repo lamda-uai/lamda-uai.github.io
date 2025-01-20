@@ -240,19 +240,6 @@ export const publicationData: PublicationData[] = [
     slidesUrl: ""
   },  
   {
-    title: "Language Processing Differences Between Blind and Sighted Individuals and the Abstract Versus Concrete Concept Difference",
-    date: "2021-10",
-    authors: ["Canessa, Enrique","Chaigneau, Sergio","Moreno, Sebastián"],
-    venue: "Cognitive Science, Volume 45, Issue 10, e13044",
-    venueShort: "Cognitive Science",
-    tags: ["Concrete concepts","Abstract concepts","Blind subjects","Sighted subjects"],
-    awards: [],
-    paperUrl: "https://doi.org/10.1111/cogs.13044",
-    abstract: "In the property listing task (PLT), participants are asked to list properties for a concept (e.g., for the concept dog, “barks,” and “is a pet” may be produced). In conceptual property norming (CPNs) studies, participants are asked to list properties for large sets of concepts. Here, we use a mathematical model of the property listing process to explore two longstanding issues: characterizing the difference between concrete and abstract concepts, and characterizing semantic knowledge in the blind versus sighted population. When we apply our mathematical model to a large CPN reporting properties listed by sighted and blind participants, the model uncovers significant differences between concrete and abstract concepts. Though we also find that blind individuals show many of the same processing differences between abstract and concrete concepts found in sighted individuals, our model shows that those differences are noticeably less pronounced than in sighted individuals. We discuss our results vis-a-vis theories attempting to characterize abstract concepts.",
-    projectUrl: "",
-    slidesUrl: ""
-  },  
-  {
     title: "Informational content of cosine and other similarities calculated from high-dimensional Conceptual Property Norm data",
     date: "2020-07",
     authors: ["Canessa, Enrique","Chaigneau, Sergio","Moreno, Sebastián","Lagos, Rodrigo"],
