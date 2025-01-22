@@ -39,7 +39,7 @@ export function People(): ReactElement {
             </h3>
             <p>Assistant Professor</p>
             <p>Universidad Adolfo Ibáñez</p>            
-            <p><a href="https://jorgeacunam.github.io/">Health Systems Engineering Laboratory</a></p>
+            <p><a href="https://jorgeacunam.github.io/">Health Systems Eng. Lab.</a></p>
           </div>
 
           <div className="banner-bottom-left">
@@ -55,7 +55,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://ingenieria.uai.cl/profesor/enrique-canessa/">Enrique Canessa</a>
             </h3>
-            <p>Associate Professor</p>
+            <p>Full Professor</p>
             <p>Universidad Adolfo Ibáñez</p>            
           </div>
 
