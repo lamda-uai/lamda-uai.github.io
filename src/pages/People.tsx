@@ -127,19 +127,35 @@ export function People(): ReactElement {
           <h2>Students</h2>
 
           <div className="banner-bottom-left">
-            <a href="https://www.google.com">
+            <a href="https://www.google.com/">
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/ghent.jpg"
+                  src="images/ghent.jpeg"
                   className="portrait-round"
                 />
               </div>
             </a>
             <h3>
-              <a href="https://www.google.com">Denis Berroeta</a>
+              <a href="https://www.google.com/">Sofía Álvarez</a>
             </h3>
-            <p>Ph.D. candidate</p>
+            <p>MsC student</p>
+          </div>  
+          
+          <div className="banner-bottom-left">
+            <a href="https://designlab.uai.cl/equipo/denis-berroeta/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/Berroeta.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://designlab.uai.cl/equipo/denis-berroeta/">Denis Berroeta</a>
+            </h3>
+            <p>Ph.D. student</p>
           </div>          
           
           <div className="banner-bottom-left">
@@ -158,6 +174,21 @@ export function People(): ReactElement {
             <p>Ph.D. candidate</p>
           </div>          
 
+        <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/Gajardo.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">Andres Gajardo</a>
+            </h3>
+            <p>Ph.D. student</p>
+          </div>  
           
           <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/agustinsso">
@@ -175,10 +206,78 @@ export function People(): ReactElement {
             <p>MSc Student</p>
           </div>
 
+          <div className="banner-bottom-left">
+            <a href="https://www.google.com/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/ghent.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.google.com">Christian Soledispa</a>
+            </h3>
+            <p>MSc student</p>
+          </div>    
+
+          
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/diego-ramos-alvarez/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/Ramos.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/diego-ramos-alvarez/">Diego Ramos</a>
+            </h3>
+            <p>Ph.D. student</p>
+          </div>    
+          
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/alfonso-tobar/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/Tobar.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/alfonso-tobar/">Alfonso Tobar</a>
+            </h3>
+            <p>Ph.D. student</p>
+          </div>               
+
+          
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
 
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img
+                alt=""
+                src="images/Lillo.jpeg"
+                className="portrait-round"
+              />
+            </div>
+            <h3>
+              <a href="https://www.linkedin.com/in/sebastián-lillo-5281301b7/">Sebastián Lillo</a>
+            </h3>
+            <p>MIIIO (2025)</p>
+            <div className="details">
+              <h5>???</h5>
+            </div>
+          </div>
+          
           <div className="banner-bottom-left">
             <div className="portrait">
               <img
