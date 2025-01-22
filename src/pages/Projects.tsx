@@ -4,7 +4,7 @@ export function Projects(): ReactElement {
   return (
     <>
       <div className="container">
-        <h3>Funded Research Projects</h3>
+        <h4>Research Projects</h4>
         <ul className="project_ul">
           <li>
             Intrusion aware: An integral platform to detect and reply cyberattacks using responsible artificial intelligence.<br />
