@@ -21,6 +21,7 @@ export function People(): ReactElement {
               <a href="https://ingenieria.uai.cl/profesor/sebastian-moreno/">Sebastian Moreno</a>
             </h3>
             <p>Associate Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
           </div>
 
           <div className="banner-bottom-left">
@@ -37,6 +38,7 @@ export function People(): ReactElement {
               <a href="https://pure.uai.cl/es/persons/jorge-acuña">Jorge Acuña</a>
             </h3>
             <p>Assistant Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
             <p><a href="https://jorgeacunam.github.io/">Health Systems Engineering Laboratory</a></p>
           </div>
 
@@ -54,6 +56,7 @@ export function People(): ReactElement {
               <a href="https://ingenieria.uai.cl/profesor/enrique-canessa/">Enrique Canessa</a>
             </h3>
             <p>Associate Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
           </div>
 
           <div className="banner-bottom-left">
@@ -70,6 +73,7 @@ export function People(): ReactElement {
               <a href="https://psicologia.uai.cl/profesor/sergio-chaigneau/">Sergio Chaigneau</a>
             </h3>
             <p>Full Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
           </div>          
 
           <div className="banner-bottom-left">
@@ -86,6 +90,7 @@ export function People(): ReactElement {
               <a href="https://negocios.uai.cl/profesor/sebastian-gallegos/">Sebastián Gallegos</a>
             </h3>
             <p>Assistant Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
           </div>
           
           <div className="banner-bottom-left">
@@ -102,6 +107,7 @@ export function People(): ReactElement {
               <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">Javier Lopatin</a>
             </h3>
             <p>Assistant Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
             <p><a href="https://www.javierlopatin.com">UAI Earth Observation</a></p>
           </div>
 
@@ -119,6 +125,7 @@ export function People(): ReactElement {
               <a href="https://ingenieria.uai.cl/profesor/wilfredo-yushimito/">Wilfredo Yushimito</a>
             </h3>
             <p>Associate Professor</p>
+            <p>Universidad Adolfo Ibáñez</p>            
           </div>          
           
           {/*  Students  */}
@@ -131,7 +138,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/ghent.jpeg"
+                  src="images/Alvarez.jpeg"
                   className="portrait-round"
                 />
               </div>
@@ -139,7 +146,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.google.com/">Sofía Álvarez</a>
             </h3>
-            <p>MsC student</p>
+            <p>MsC student (MSDS)</p>
           </div>  
           
           <div className="banner-bottom-left">
@@ -155,7 +162,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://designlab.uai.cl/equipo/denis-berroeta/">Denis Berroeta</a>
             </h3>
-            <p>Ph.D. student</p>
+            <p>Ph.D. student (DDS)</p>
           </div>          
           
           <div className="banner-bottom-left">
@@ -163,7 +170,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/ghent.jpg"
+                  src="images/Bravo.jpg"
                   className="portrait-round"
                 />
               </div>
@@ -171,7 +178,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.google.com">Alejandra Bravo-Diaz</a>
             </h3>
-            <p>Ph.D. candidate</p>
+            <p>Ph.D. candidate (DDS)</p>
           </div>          
 
         <div className="banner-bottom-left">
@@ -187,7 +194,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">Andres Gajardo</a>
             </h3>
-            <p>Ph.D. student</p>
+            <p>Ph.D. student (DDS)</p>
           </div>  
           
           <div className="banner-bottom-left">
@@ -211,7 +218,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/ghent.jpg"
+                  src="images/Soledispa.jpg"
                   className="portrait-round"
                 />
               </div>
@@ -219,7 +226,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.google.com">Christian Soledispa</a>
             </h3>
-            <p>MSc student</p>
+            <p>MSc student (MSDS)</p>
           </div>    
 
           
@@ -236,7 +243,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/diego-ramos-alvarez/">Diego Ramos</a>
             </h3>
-            <p>Ph.D. student</p>
+            <p>Ph.D. student (DDS)</p>
           </div>    
           
           <div className="banner-bottom-left">
@@ -252,7 +259,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/alfonso-tobar/">Alfonso Tobar</a>
             </h3>
-            <p>Ph.D. student</p>
+            <p>Ph.D. student (DDS)</p>
           </div>               
 
           
