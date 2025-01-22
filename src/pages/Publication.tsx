@@ -57,7 +57,7 @@ export function Publication(): ReactElement {
           </div>
         ) : (
           <Literatures
-            title={'Selected Publication'}
+            title={'Publications'}
             description={''}
             entries={papers}
             listHeader={'Published Papers'}
