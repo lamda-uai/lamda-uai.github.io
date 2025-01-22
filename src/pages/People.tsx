@@ -71,6 +71,22 @@ export function People(): ReactElement {
             </h3>
             <p>Full Professor</p>
           </div>          
+
+          <div className="banner-bottom-left">
+            <a href="https://negocios.uai.cl/profesor/sebastian-gallegos/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/Gallegos.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://negocios.uai.cl/profesor/sebastian-gallegos/">Sebastián Gallegos</a>
+            </h3>
+            <p>Assistant Professor</p>
+          </div>
           
           <div className="banner-bottom-left">
             <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">
@@ -110,6 +126,39 @@ export function People(): ReactElement {
           <div className="clearfix"> </div>
           <h2>Students</h2>
 
+          <div className="banner-bottom-left">
+            <a href="https://www.google.com">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/ghent.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.google.com">Denis Berroeta</a>
+            </h3>
+            <p>Ph.D. candidate</p>
+          </div>          
+          
+          <div className="banner-bottom-left">
+            <a href="https://www.google.com">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/ghent.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.google.com">Alejandra Bravo-Diaz</a>
+            </h3>
+            <p>Ph.D. candidate</p>
+          </div>          
+
+          
           <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/agustinsso">
               <div className="portrait">
