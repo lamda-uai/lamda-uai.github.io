@@ -6,6 +6,9 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
+          <li>
+            <b>Jan. 2025: </b> Sebastián Lillo has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
+          </li>
          <li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
           </li>		
@@ -16,10 +19,10 @@ export function News(): ReactElement {
             <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
           </li>
           <li>
-            <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
+            <b>Jan. 2025: </b> Agustin Ghent has started an internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
           </li>
           <li>
-            <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
+            <b>Jan. 2025: </b> Sofía Álvarez has started an internship in ENTEL, Chile.
           </li>
 	</ul>
         <ul className="news-list">		
