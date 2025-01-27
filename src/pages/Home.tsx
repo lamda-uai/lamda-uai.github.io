@@ -14,7 +14,10 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
-         <li>
+          <li>
+            <b>Jan. 2025: </b> Sebastián Lillo has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
+          </li>
+	<li>
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
           </li>		
          <li>
@@ -24,10 +27,10 @@ export function Home(): ReactElement {
             <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
           </li>
           <li>
-            <b>Jan. 2025: </b> Agustin Ghent has started his internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
+            <b>Jan. 2025: </b> Agustin Ghent has started an internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
           </li>
           <li>
-            <b>Jan. 2025: </b> Sofía Álvarez has started her internship in ENTEL, Chile.
+            <b>Jan. 2025: </b> Sofía Álvarez has started an internship in ENTEL, Chile.
           </li>
 	<li>
             <b>Dec. 2024: </b> Alfonso Tobar attended remotely the Thirty-Eight Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
