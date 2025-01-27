@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-
+ 
 export function News(): ReactElement {
   return (
     <>
