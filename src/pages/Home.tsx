@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
           <li>
+            <b>Jan. 2025: </b> Diego Ramos won the 2025 national Ph.D. scholarship (ANID), Congratulations!!!
+          </li>
+          <li>
             <b>Jan. 2025: </b> Sebastián Lillo has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
           </li>
 	<li>
