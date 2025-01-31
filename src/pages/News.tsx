@@ -131,6 +131,9 @@ export function News(): ReactElement {
             <b>April 2023: </b> <a href="https://doi.org/10.3390/math11071749">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1). Congrats to V. Martinez.
           </li>          								
           <li>
+            <b>March 2023: </b> Cristobal Heredia won the 2023 national master's scholarship (ANID), Congratulations!!!
+          </li>		
+          <li>
             <b>Jan. 2023: </b> Diego Ramos has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
           </li> 
           <li>
