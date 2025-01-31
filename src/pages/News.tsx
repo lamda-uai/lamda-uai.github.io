@@ -7,6 +7,9 @@ export function News(): ReactElement {
         <h4>News</h4>
         <ul className="news-list">
           <li>
+            <b>Jan. 2025: </b> Diego Ramos won the 2025 national Ph.D. scholarship (ANID), Congratulations!!!
+          </li>
+          <li>
             <b>Jan. 2025: </b> Sebastián Lillo has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
           </li>
          <li>
