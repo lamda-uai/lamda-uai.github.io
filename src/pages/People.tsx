@@ -166,17 +166,17 @@ export function People(): ReactElement {
           </div>          
           
           <div className="banner-bottom-left">
-            <a href="https://www.google.com">
+            <a href="https://github.com/MAlejandraBravo">
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/Bravo.jpg"
+                  src="images/Ale.png"
                   className="portrait-round"
                 />
               </div>
             </a>
             <h3>
-              <a href="https://www.google.com">Alejandra Bravo-Diaz</a>
+              <a href="https://github.com/MAlejandraBravo">Alejandra Bravo-Diaz</a>
             </h3>
             <p>Ph.D. candidate (DDS)</p>
           </div>          
