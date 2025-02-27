@@ -6,6 +6,9 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
+         <li>
+            <b>Feb. 2025: </b> Alejandra Bravo-Diaz and Sebastián Moreno were invited as reviewer and area chair at NeurIPS 2025. 
+          </li>		
           <li>
             <b>Jan. 2025: </b> Diego Ramos won the 2025 national Ph.D. scholarship (ANID), Congratulations!!!
           </li>
