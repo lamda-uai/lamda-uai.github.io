@@ -14,6 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
+	<li>
+            <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
+        </li>		
          <li>
             <b>Feb. 2025: </b> Alejandra Bravo-Diaz and Sebastián Moreno were invited as reviewer and area chair at NeurIPS 2025. 
           </li>		
