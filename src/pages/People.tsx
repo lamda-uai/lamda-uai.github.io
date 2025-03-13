@@ -146,7 +146,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.google.com/">Sofía Álvarez</a>
             </h3>
-            <p>MsC student (MSDS)</p>
+            <p>MSc student (MSDS)</p>
           </div>  
           
           <div className="banner-bottom-left">
