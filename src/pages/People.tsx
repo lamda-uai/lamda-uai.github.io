@@ -210,7 +210,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
             </h3>
-            <p>MSc Student</p>
+            <p>MSc Student (MSDS)</p>
           </div>
 
           <div className="banner-bottom-left">
