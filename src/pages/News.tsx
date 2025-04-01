@@ -6,13 +6,18 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
-
+	<li>
+            <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 44th IEEE International Conference of the Chilean Computer Science Society (JCC 2025).
+          </li>				
+	<li>
+            <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 51st Latin American Informatics Conference (CLEI 2025).
+        </li>				
+	<li>
+            <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
+        </li>          				
 	<li>
 		<b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
-	
 	</li>
-
-	
          <li>
             <b>Feb. 2025: </b> Alejandra Bravo-Diaz and Sebastián Moreno were invited as reviewer and area chair at NeurIPS 2025. 
           </li>		
