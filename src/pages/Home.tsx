@@ -15,6 +15,16 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
 	<li>
+            <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 44th IEEE International Conference of the Chilean Computer Science Society (JCC 2025).
+          </li>				
+	<li>
+            <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 51st Latin American Informatics Conference (CLEI 2025).
+          </li>				
+	<li>
+            <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
+          </li>          				
+        </li>		
+	<li>
             <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
         </li>		
          <li>
@@ -83,27 +93,6 @@ export function Home(): ReactElement {
 	   <li>
             <b>May 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
           </li>          		
-          <li>
-            <b>April 2024: </b> Diego Corvalán has successfully defended his Master of Science in Engineering thesis, Congratulations!!!
-          </li>
-          <li>
-            <b>April 2024: </b> Ninnete Olhabe has successfully defended her Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
-          </li>
-          <li>
-            <b>April 2024: </b> <a href="https://doi.org/10.3390/math12081255">Journal paper published</a> in <a href="https://www.mdpi.com/journal/mathematics">Mathematics</a> (WOS-Q1).
-          </li>          				
-          <li>
-            <b>March 2024: </b> A. Tobar and S. Moreno were invited to give a talk at <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
-          </li>                    				
-          <li>
-            <b>March 2024: </b> Agustin Ghent co-organized the <a href="https://www.uai.cl/eventos/universidad/responsible-ai-week">Responsible AI Week UAI</a>.
-          </li>                    		
-          <li>
-            <b>March 2024: </b> We give a warm welcome to Agustín Ghent, who has started the Master of Science in Data Science.
-          </li>                    
-          <li>
-            <b>Jan. 2024: </b> Our collaborator Enrique Canessa has won a FONDECYT fund research, by ANID, Chile.
-          </li> 
         </ul>
       </div>
       <div id="about" className="team">
