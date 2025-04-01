@@ -23,7 +23,6 @@ export function Home(): ReactElement {
 	<li>
             <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
           </li>          				
-        </li>		
 	<li>
             <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
         </li>		
