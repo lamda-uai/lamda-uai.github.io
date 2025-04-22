@@ -14,6 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
+         <li>
+            <b>April 2025: </b> Diego Ramos has successfully defended his PhD thesis proposal, Congratulations!!!
+          </li>
 	<li>
             <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 44th IEEE International Conference of the Chilean Computer Science Society (JCC 2025).
           </li>				
@@ -39,7 +42,7 @@ export function Home(): ReactElement {
             <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
           </li>		
          <li>
-            <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended his PhD thesis proposal, Congratulations!!!
+            <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended her PhD thesis proposal, Congratulations!!!
           </li>
           <li>
             <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
