@@ -15,7 +15,7 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
          <li> 
-            <b>May  2025: </b> Alejandra Bravo-Diaz presented has successfully defended his PhD thesis proposal, Congratulations!!!
+            <b>May  2025: </b> Alejandra Bravo-Diaz presented: Can models based on deep learning architectures be applied in new geographic regions? A remote sensing perspective, in the V Reunión Bienal IALE-Chile.
           </li>		
          <li> 
             <b>April 2025: </b> Diego Ramos has successfully defended his PhD thesis proposal, Congratulations!!!
@@ -29,6 +29,9 @@ export function Home(): ReactElement {
 	<li>
             <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
           </li>          				
+	<li>
+            <b>Mar. 2025: </b> Agustin Ghent started a part-time position at Centro Nacional de Inteligencia Artificial (CENIA), Chile.
+        </li>		
 	<li>
             <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
         </li>		
