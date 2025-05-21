@@ -6,6 +6,9 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
+         <li> 
+            <b>May  2025: </b> Alejandra Bravo-Diaz presented: Can models based on deep learning architectures be applied in new geographic regions? A remote sensing perspective, in the V Reunión Bienal IALE-Chile.
+          </li>			
          <li>
             <b>April 2025: </b> Diego Ramos has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
