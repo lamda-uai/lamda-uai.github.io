@@ -20,9 +20,12 @@ export function News(): ReactElement {
         </li>				
 	<li>
             <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
-        </li>          				
+        </li>    
 	<li>
-		<b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
+            <b>Mar. 2025: </b> Agustin Ghent started a part-time position at Centro Nacional de Inteligencia Artificial (CENIA), Chile.
+        </li>			
+	<li>
+	    <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
 	</li>
          <li>
             <b>Feb. 2025: </b> Alejandra Bravo-Diaz and Sebastián Moreno were invited as reviewer and area chair at NeurIPS 2025. 
