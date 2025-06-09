@@ -14,6 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
+	<li>
+            <b>June 2025: </b> Workshop paper accepted in <a href="https://kdd25scisocllm.github.io">SciSoc LLM Workshop at KDD 2025</a> (SCOPUS). Congrats to Ramos.
+          </li>          						
          <li> 
             <b>May  2025: </b> Alejandra Bravo-Diaz presented: Can models based on deep learning architectures be applied in new geographic regions? A remote sensing perspective, in the V Reunión Bienal IALE-Chile.
           </li>		
@@ -27,7 +30,7 @@ export function Home(): ReactElement {
             <b>April 2025: </b> Alejandra Bravo-Diaz, Diego Ramos, & Alfonso Tobar are reviewers at the 51st Latin American Informatics Conference (CLEI 2025).
           </li>				
 	<li>
-            <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (WOS-Q2). Congrats to Bravo-Diaz.
+            <b>April 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> (SCOPUS). Congrats to Bravo-Diaz.
           </li>          				
 	<li>
             <b>Mar. 2025: </b> Agustin Ghent started a part-time position at Centro Nacional de Inteligencia Artificial (CENIA), Chile.
