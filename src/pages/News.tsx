@@ -6,7 +6,19 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
-	<li>
+		<li>
+            <b>Sept. 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
+          </li>          									
+		<li>
+            <b>Aug. 2025: </b> Welcome to Joaquín Urrutia!!!
+          </li>          									
+		<li>
+            <b>Aug. 2025: </b> Diego Ramos attended  KDD 2025. Congrats to Ramos.
+          </li>          									
+		<li>
+            <b>July 2025: </b> Workshop paper accepted in <a href="https://sites.google.com/view/ai4supplychain-kdd-2025/home">Workshop on AI for Supply Chain: Today and Future</a>. Congrats to Alvarez and Tobar.
+          </li>          						
+		<li>
             <b>June 2025: </b> Workshop paper accepted in <a href="https://kdd25scisocllm.github.io">SciSoc LLM Workshop at KDD 2025</a> (SCOPUS). Congrats to Ramos.
           </li>          								
          <li> 
