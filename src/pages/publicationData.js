@@ -32,6 +32,32 @@ export const publicationData: PublicationData[] = [
     slidesUrl: ""
     },  
     {
+    title: "Measuring the Semantic Priming Effect Across Many Languages",
+    date: "2025-08",
+    authors: ["Buchanan, Erin","...","Moreno, Sebastian","..."],
+    venue: "Nature Human Behaviour",
+    venueShort: "Nature HB",
+    tags: [""],
+    awards: [],
+    paperUrl: "",
+    abstract: "Semantic priming has been studied for nearly 50 years across various experimental manipulations and theoretical frameworks. Although previous studies provide insight into the cognitive underpinnings of semantic representations, they have suffered from several methodological issues including small sample sizes and a lack of linguistic and cultural diversity. Here, we measured the size and the variability of the semantic priming effect across 19 languages (N = 25,163 participants analyzed) by creating the largest available database of semantic priming values based on an adaptive sampling procedure. Differences in response latencies between related word-pair conditions and unrelated word-pair conditions showed evidence for semantic priming. Model comparisons showed inclusion of a random intercept for language improved model fit, providing support for variability in semantic priming across languages. This study highlights the robustness and variability of semantic priming across languages and provides a rich, linguistically diverse dataset for further analysis.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+    {
+    title: "Validity of a one-stop automatic algorithm for counting clusters and shifts in the Semantic Fluency Task",
+    date: "2025-08",
+    authors: ["Carriedo, Nuria","Canessa, Enrique","Moreno, Sebastian","Iglesias-Sarmiento, Valentín","Morales, Diego","Chaigneau, Sergio"],
+    venue: "Collabra-Psychology",
+    venueShort: "Collabra",
+    tags: ["Semantic Fluency Task","semantic memory","automatic coding","clusters","shifts","executive functions"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1525/collabra.143030",
+    abstract: "We introduce PROXIS, a computational algorithm for the Semantic Fluency Task (SFT), which automatically counts clusters and shifts. We compared its output relative to human coders and to another cluster/shift counting algorithm (Forager), and its performance in predicting executive functions (EF), intelligence, processing speed, and semantic retrieval, also against human coders and to Forager. Correlations with EF subdomains and other cognitive factors closely resemble those of human coders, evidencing convergent validity. We also used Naïve Bayes and Decision Tree for age classification, with PROXIS outputs successfully discriminating age groups, evidence of the meaning and interpretability of those counts. Clusters and shifts were found to be more important than word counts. PROXIS’s consistency extended across semantic categories (animals, clothing, foods), suggesting its robustness and generalizability. Comparing PROXIS convergent validity with Forager’s, we found that they are on par. However, PROXIS ability to discriminate between participants’ age groups is substantially higher than Forager’s. We believe that PROXIS is applicable beyond the specifics of the SFT, and to many tasks in which people list items from semantic memory (e.g., tasks like free associates, top-of-mind, feature listing). Practical implications of the algorithm’s ease of implementation and relevance for studying the relation of the SFT to EFs and other research problems are discussed.",
+    projectUrl: "",
+    slidesUrl: ""
+    },    
+    {
     title: "Convolutional neural network models with low spatial variability hamper the transfer learning process",
     date: "2025-05",
     authors: ["Bravo-Diaz Alejandra","Moreno, Sebastian","Lopatin, Javier"],
@@ -43,7 +69,8 @@ export const publicationData: PublicationData[] = [
     abstract: "Using pre-trained convolutional neural networks (CNNs) architectures have proven effective in high-resolution remote sensing, even when homogeneous and few data samples are used. However, it is still uncertain how well models trained with limited spatial information can transfer the learning process from one domain to a new domain (transductive transfer learning). This paper evaluates transductive transfer learning in CNN regression models using RGB-based data captured by unoccupied aerial vehicles on five sites, using the prediction of Pinus radiata canopy coverage as a case study. We trained five models, one per site, analyzing their internal perfor- mance using fine-tuning and feature extraction training approaches. Then, we evaluated their transfer learning ability to new unseeing sites. We found that the trained models perform accurately within their domain, as previous research demonstrates (R2 [ 0.90 using fine-tuning). However, we depicted varying performances during transfer learning, with R2 ranging from - 0.68 to 0.63 for feature extraction and from - 4.42 to 0.77 for fine-tuning. Our results show that these poor performances are independent of the training approach (fine-tuning or feature extraction), the number of observations, or the complexity of the model. In contrast, the success during transfer learning is closely linked to the similarity between the source and target domains, which is often unknown when predicting new data. These results depict the importance of carefully planning the future use of such models for their sustainability and generalization over time.",
     projectUrl: "",
     slidesUrl: ""
-    },  
+    },
+  
     {
     title: "CNN Sensitivity Analysis for Land Cover Map Models Using Sparse and Heterogeneous Satellite Data",
     date: "2024-11",
