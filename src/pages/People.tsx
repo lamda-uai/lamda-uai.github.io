@@ -281,7 +281,8 @@ export function People(): ReactElement {
             </h3>
             <p>MIIIO (2025)</p>
             <div className="details">
-              <h5>???</h5>
+              <h5>CCTV</h5>
+              <h5>Engineering</h5>
             </div>
           </div>
           
