@@ -14,8 +14,20 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
-	<li>
-            <b>June 2025: </b> Workshop paper accepted in <a href="https://kdd25scisocllm.github.io">SciSoc LLM Workshop at KDD 2025</a> (SCOPUS). Congrats to Ramos.
+		<li>
+            <b>Sept. 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
+          </li>          									
+		<li>
+            <b>Aug. 2025: </b> Welcome to Joaquín Urrutia!!!
+          </li>          									
+		<li>
+            <b>Aug. 2025: </b> Diego Ramos attended  KDD 2025. Congrats to Ramos.
+          </li>          									
+		<li>
+            <b>July 2025: </b> Workshop paper accepted in <a href="https://sites.google.com/view/ai4supplychain-kdd-2025/home">Workshop on AI for Supply Chain: Today and Future</a>. Congrats to Alvarez and Tobar.
+          </li>          						
+			<li>
+            <b>June 2025: </b> Workshop paper accepted in <a href="https://kdd25scisocllm.github.io">SciSoc LLM Workshop at KDD 2025</a>. Congrats to Ramos.
           </li>          						
          <li> 
             <b>May  2025: </b> Alejandra Bravo-Diaz presented: Can models based on deep learning architectures be applied in new geographic regions? A remote sensing perspective, in the V Reunión Bienal IALE-Chile.
@@ -92,18 +104,6 @@ export function Home(): ReactElement {
           <li>
             <b>Sept. 2024: </b> <a href="https://doi.org/10.1016/j.ecoinf.2024.102684">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> (WOS-Q1). Congrats to Bravo-Diaz.
           </li>          
-          <li>
-            <b>Aug. 2024: </b> We give a warm welcome to Sofía Álvarez, who has started the Master of Science in Data Science.
-          </li>                    
-          <li>
-            <b>Aug. 2024: </b> Cristobal Heredia has started a new position as a Phd. Student at Univesity of South Florida, USA.
-          </li> 		
-          <li>
-            <b>July 2024: </b> Alfonso Tobar has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
-          </li>          
-	   <li>
-            <b>May 2024: </b> <a href="https://www.sciencedirect.com/science/article/pii/S2352711024001031">Journal paper published</a> in <a href="https://www.sciencedirect.com/journal/softwarex">SoftwareX</a>  (WOS-Q2). Congrats to Heredia.
-          </li>          		
         </ul>
       </div>
       <div id="about" className="team">
