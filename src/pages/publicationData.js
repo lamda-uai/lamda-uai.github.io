@@ -19,6 +19,32 @@ interface PublicationData {
 
 export const publicationData: PublicationData[] = [
     {
+    title: "Towards scalable and reliable coding of Semantic Property Norms: ChatGPT vs. an improved AC-PLT",
+    date: "2025-09",
+    authors: ["Ramos, Diego","Moreno, Sebastián","Canessa, Enrique","Chaigneau, Sergio"],
+    venue: "Behavior Research Methods",
+    venueShort: "BRM",
+    tags: ["Machine learning framework","Property listing task","Assisted codification","Coding reliability","Ablation study"],
+    awards: [],
+    paperUrl: "",
+    abstract: "When using the Property Listing Task (PLT) to collect semantic content for a set of concepts (Concept Property Norms, CPNs), coding raw properties into standardized labels poses significant challenges. In the current work, we address these challenges by improving the Assisted Coding for Property Listing Task (AC-PLT) framework, which helps in the coding process. The current work conducts an ablation study to optimize AC-PLT by evaluating combinations of text cleaning, embedding models (e.g., Word2Vec, E5, LaBSE), and classification methods (e.g., kNN, SVM, XGBoost). Results show that normalization with the E5 embedding model and kNN classification achieves the highest accuracy, with top-1 test accuracies of 0.523 for CPN27 and 0.608 for CPN120 datasets, outperforming the original AC-PLT baseline. Comparisons with ChatGPT (fine-tuned and one-shot) reveal AC-PLT's superior stability and cost-effectiveness, despite ChatGPT's competitive performance in some cases. The improved AC-PLT framework offers a scalable, efficient solution to manual coding challenges, reducing variability and time constraints. Future work will explore its role as a recommender system for human coders, further enhancing its practical utility in cognitive psychology and psycholinguistics research.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+    {
+    title: "Convolutional neural network models with low spatial variability hamper the transfer learning process",
+    date: "2025-05",
+    authors: ["Bravo-Diaz Alejandra","Moreno, Sebastian","Lopatin, Javier"],
+    venue: "Neural Computing and Applications, vol 37, 13927–13942",
+    venueShort: "Neural Computing",
+    tags: ["Domains","Pre-trained model","Fine-tuning","Feature extraction","Small data","Transductive transfer learning"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1007/s00521-025-11267-6",
+    abstract: "Using pre-trained convolutional neural networks (CNNs) architectures have proven effective in high-resolution remote sensing, even when homogeneous and few data samples are used. However, it is still uncertain how well models trained with limited spatial information can transfer the learning process from one domain to a new domain (transductive transfer learning). This paper evaluates transductive transfer learning in CNN regression models using RGB-based data captured by unoccupied aerial vehicles on five sites, using the prediction of Pinus radiata canopy coverage as a case study. We trained five models, one per site, analyzing their internal perfor- mance using fine-tuning and feature extraction training approaches. Then, we evaluated their transfer learning ability to new unseeing sites. We found that the trained models perform accurately within their domain, as previous research demonstrates (R2 [ 0.90 using fine-tuning). However, we depicted varying performances during transfer learning, with R2 ranging from - 0.68 to 0.63 for feature extraction and from - 4.42 to 0.77 for fine-tuning. Our results show that these poor performances are independent of the training approach (fine-tuning or feature extraction), the number of observations, or the complexity of the model. In contrast, the success during transfer learning is closely linked to the similarity between the source and target domains, which is often unknown when predicting new data. These results depict the importance of carefully planning the future use of such models for their sustainability and generalization over time.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+    {
     title: "CNN Sensitivity Analysis for Land Cover Map Models Using Sparse and Heterogeneous Satellite Data",
     date: "2024-11",
     authors: ["Moreno, Sebastian","Lopatin, Javier","Corvalan, Diego","Bravo-Diaz Alejandra"],
@@ -112,7 +138,7 @@ export const publicationData: PublicationData[] = [
   {
     title: "AC-PLT: An algorithm for computer-assisted coding of semantic property listing data",
     date: "2023-09",
-    authors: ["Canessa, Enrique","Chaigneau, Sergio","Moreno, Sebastián"],
+    authors: ["Ramos, Diego","Moreno, Sebastián","Canessa, Enrique","Chaigneau, Sergio","Marchant, Nicolás"],
     venue: "Behavior Research Methods, Volume 56, pages 3366–3379",
     venueShort: "BRM",
     tags: ["Machine learning framework","Property listing task","Assisted codification","Coding reliability"],
