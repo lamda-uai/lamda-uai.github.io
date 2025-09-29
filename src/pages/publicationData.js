@@ -18,7 +18,46 @@ interface PublicationData {
 }
 
 export const publicationData: PublicationData[] = [
-    {
+  {
+    title: "Speeding up KNN-WH for Origin-Destination Travel Time Estimation",
+    date: "2025-12",
+    authors: ["Álvarez, Sofía","Moreno, Sebastián","Tobar-Arancibia, Alfonso","Yushimito, Wilfredo"],
+    venue: "The IEEE 15th International Conference on Pattern Recognition Systems",
+    venueShort: "ICPRS'25",
+    tags: ["origin–destination travel time","machine learning","k-nearest neighbor","speed up estimation process"],
+    awards: [],
+    paperUrl: "",
+    abstract: "Origin-destination (O-D) travel time estimation is among the most important problems studied in transportation. It focuses on determining accurate travel time from a specific origin point to a destination point. Given the development of new technologies such as GPS and mobile applications, this data can be easily gathered, improving the estimation of the O-D travel time and enabling prediction in almost real-time. Currently, one of the simplest and newest algorithms is the KNN-WH model, an improvement of the K-Nearest Neighbors method with Haversine distance and a correction factor. Unfortunately, the direct application of this method can take over 50 minutes to predict a new set of 70,000 data points. This paper proposes k-KNN-WH, a new two-step framework that clusters the data using k-means and then applies KNN-WH on the corresponding cluster. The empirical results show a minimal impact on the MAPE performance (1.5%) while reducing the time estimation process from approximately 50 to 20 minutes.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+  {
+    title: "Using Chat-GPT for coding properties in semantic memory studies",
+    date: "2025-12",
+    authors: ["Ramos, Diego","Moreno, Sebastián","Canessa, Enrique","Chaigneau, Sergio"],
+    venue: "The IEEE 15th International Conference on Pattern Recognition Systems",
+    venueShort: "ICPRS'25",
+    tags: ["Semantic Memory","Large Language models","LLMs","codification","Property Listing Task","PLT"],
+    awards: [],
+    paperUrl: "",
+    abstract: "In this paper, we propose Chat-GPT for the codification of a Property Listing Task (PLT). PLTs are a standard method to study semantic memory (understanding how people represent concepts coded in their minds). In a PLT, a group of participants is asked to list properties/features for a concept (e.g., ``horse''). Given that different properties could have the same meaning (e.g., ``quadruped'' and ``four legs''), the mentioned properties must be codified before any analysis. Currently, the codification process is carried out by at least two human coders, making it a slow and non-replicable process (given the variability of codes assigned by the coders). Automating this codification process through Chat-GPT will speed up the codification, reduce the variability of the human codification process, and allow replicable results. We compare Chat-GPT with AC-PLT (the first semi-automatic codification framework for PLTs), using accuracy on two datasets. The experiment compares AC-PLT with GPT-3.5-turbo-0125 (using one-shot prompting and fine-tuning) and GPT-4o (using one-shot prompting). GPT-3.5-turbo-0125 with fine-tuning shows comparable performance with AC-PLT, opening a possible area of research for this codification process.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+  {
+    title: "Machine Learning Models for Predicting Surgical Case Times in Breast Cancer Procedures",
+    date: "2025-12",
+    authors: ["Bravo, Josefa","Acuña, Jorge","Moreno, Sebastián"],
+    venue: "The IEEE 15th International Conference on Pattern Recognition Systems",
+    venueShort: "ICPRS'25",
+    tags: ["machine learning in oncology","operating room scheduling","breast cancer surgery","XGBoost regression"],
+    awards: [],
+    paperUrl: "",
+    abstract: "Accurate estimation of surgical case duration is essential to improve operating room efficiency and optimize hospital resources. This study analyzed 2,265 breast cancer surgeries performed at the Chilean National Cancer Institute between June 2019 and December 2024 to develop and evaluate multiple machine learning regression models. Model performance was compared with the hospital’s current estimation method using root mean squared Error (RMSE), mean absolute error (MAE), and the coefficient of determination. The best-performing model, eXtreme Gradient Boosting (XGBoost), reduced MAE from 39.54 to 21.80 minutes, RMSE from 49.72 to 28.92 minutes, and improved the coefficient of determination from –0.01 to 0.66. Feature importance analysis revealed that the surgeon’s time estimation—based on experience—was the second most influential predictor, followed by operational, procedure, team, and oncologic features, underscoring the need to complement clinical expertise with data-driven insights. These findings demonstrate the potential of machine learning models to enhance surgical time prediction, supporting more reliable operating room scheduling and improved resource utilization in oncology surgery.",
+    projectUrl: "",
+    slidesUrl: ""
+    },  
+  {
     title: "Towards scalable and reliable coding of Semantic Property Norms: ChatGPT vs. an improved AC-PLT",
     date: "2025-09",
     authors: ["Ramos, Diego","Moreno, Sebastián","Canessa, Enrique","Chaigneau, Sergio"],
@@ -39,7 +78,7 @@ export const publicationData: PublicationData[] = [
     venueShort: "Nature HB",
     tags: [""],
     awards: [],
-    paperUrl: "",
+    paperUrl: "https://doi.org/10.1038/s41562-025-02254-x",
     abstract: "Semantic priming has been studied for nearly 50 years across various experimental manipulations and theoretical frameworks. Although previous studies provide insight into the cognitive underpinnings of semantic representations, they have suffered from several methodological issues including small sample sizes and a lack of linguistic and cultural diversity. Here, we measured the size and the variability of the semantic priming effect across 19 languages (N = 25,163 participants analyzed) by creating the largest available database of semantic priming values based on an adaptive sampling procedure. Differences in response latencies between related word-pair conditions and unrelated word-pair conditions showed evidence for semantic priming. Model comparisons showed inclusion of a random intercept for language improved model fit, providing support for variability in semantic priming across languages. This study highlights the robustness and variability of semantic priming across languages and provides a rich, linguistically diverse dataset for further analysis.",
     projectUrl: "",
     slidesUrl: ""
