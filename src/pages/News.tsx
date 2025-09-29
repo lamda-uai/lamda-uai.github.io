@@ -6,6 +6,12 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
+         <li>
+            <b>Oct. 2025: </b> Three conference paper accepted in <a href="https://www.icprs.org">The IEEE 15th International Conference on Pattern Recognition Systems</a>. Congrats to Álvarez, Bravo, Ramos, Tobar-Arancibia.
+          </li>
+         <li>
+            <b>Sept. 2025: </b> Sebastián Orellana has successfully defended his PhD thesis proposal. Congratulations!!!
+          </li>
 		<li>
             <b>Sept. 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
           </li>          									
