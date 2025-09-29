@@ -138,7 +138,7 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/unknown.png"
+                  src="images/SofiaAlvarez.png"
                   className="portrait-round"
                 />
               </div>
@@ -163,8 +163,26 @@ export function People(): ReactElement {
               <a href="https://designlab.uai.cl/equipo/denis-berroeta/">Denis Berroeta</a>
             </h3>
             <p>Ph.D. student (DDS)</p>
+            <p>co-advisor</p>
           </div>          
           
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/josefa-elisa-bravo-parra">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/josefaBravo.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/josefa-elisa-bravo-parra">Josefa Bravo</a>
+            </h3>
+            <p>MSc student (MSDS)</p>
+            <p>co-advisor</p>
+          </div>          
+
           <div className="banner-bottom-left">
             <a href="https://github.com/MAlejandraBravo">
               <div className="portrait">
@@ -179,8 +197,27 @@ export function People(): ReactElement {
               <a href="https://github.com/MAlejandraBravo">Alejandra Bravo-Diaz</a>
             </h3>
             <p>Ph.D. candidate (DDS)</p>
-          </div>          
+            <p>co-advisor</p>
+          </div> 
 
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/eduardo-carrasco-vidal">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/eduardoCarrasco.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/eduardo-carrasco-vidal">Eduardo Carrasco</a>
+            </h3>
+            <p>Ph.D. student (DISC)</p>
+            <p>co-advisor</p>
+          </div> 
+          
+          
         <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">
               <div className="portrait">
@@ -195,6 +232,7 @@ export function People(): ReactElement {
               <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">Andres Gajardo</a>
             </h3>
             <p>Ph.D. student (DDS)</p>
+          <p>co-advisor</p>
           </div>  
           
           <div className="banner-bottom-left">
@@ -213,6 +251,23 @@ export function People(): ReactElement {
             <p>MSc Student (MSDS)</p>
           </div>
 
+         <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/sebastian-orellana-casanova-b31b48142/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/sebastianOrellana.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/sebastian-orellana-casanova-b31b48142/">Sebastián Orellana</a>
+            </h3>
+            <p>Ph.D. candidate (DDS)</p>
+            <p>co-advisor</p>
+          </div> 
+          
           <div className="banner-bottom-left">
             <a href="https://www.google.com/">
               <div className="portrait">
@@ -243,7 +298,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/diego-ramos-alvarez/">Diego Ramos</a>
             </h3>
-            <p>Ph.D. student (DDS)</p>
+            <p>Ph.D. candidate (DDS)</p>
           </div>    
           
           <div className="banner-bottom-left">
@@ -262,6 +317,23 @@ export function People(): ReactElement {
             <p>Ph.D. student (DDS)</p>
           </div>               
 
+          
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/joaquín-urrutia-716962356/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/joaquinUrrutia.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/joaquín-urrutia-716962356/">Joaquín Urrutia</a>
+            </h3>
+            <p>Undergraduate</p>
+            <p>Computer Engineering</p>
+          </div>
           
           {/* Former Members */}
           <div className="clearfix"> </div>
