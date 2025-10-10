@@ -68,7 +68,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "",
     abstract: "En el área de la teledetección, los modelos basados en arquitecturas de redes neuronales convolucionales (CNN) han surgido como una alternativa costo-efectiva para abordar diversos desafíos ecológicos y ambientales. Esto se debe a su capacidad para aprender patrones espaciales y aplicarlos en tareas como la detección de invasiones vegetales, la identificación de árboles muertos, el reconocimiento de coberturas de suelo, entre otras. Sin embargo, cuando se quiere aplicar estos modelos a nuevos datos, debido a sus posibles nuevas características (distribución de datos, variaciones en el ruido, sesgos y otras), estos modelos podrían mostrar un bajo rendimiento, ya que no extrapolan los patrones espaciales aprendidos. Por ello, este estudio tiene como objetivo evaluar el rendimiento de modelos de CNN en nuevas áreas geográficas y, al mismo tiempo, analizar la posible relación entre dicho rendimiento y la similitud entre las características de los datos usados el entrenamiento del modelo y las de las nuevas áreas geográficas donde se requiere usar el modelo. Una relación de este tipo permitiría saber a priori si el modelo debería ser utilizado en una nueva área geográfica y confiar en los resultados obtenidos.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/2025-JornadaUAI-2.pdf"
     },       
   {
     title: "TALK: Automatización de la codificación en tareas de listado de propiedades mediante aprendizaje automático y modelos de lenguaje",
@@ -107,7 +107,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "",
     abstract: "When using the Property Listing Task (PLT) to collect semantic content for a set of concepts (Concept Property Norms, CPNs), coding raw properties into standardized labels poses significant challenges. In the current work, we address these challenges by improving the Assisted Coding for Property Listing Task (AC-PLT) framework, which helps in the coding process. The current work conducts an ablation study to optimize AC-PLT by evaluating combinations of text cleaning, embedding models (e.g., Word2Vec, E5, LaBSE), and classification methods (e.g., kNN, SVM, XGBoost). Results show that normalization with the E5 embedding model and kNN classification achieves the highest accuracy, with top-1 test accuracies of 0.523 for CPN27 and 0.608 for CPN120 datasets, outperforming the original AC-PLT baseline. Comparisons with ChatGPT (fine-tuned and one-shot) reveal AC-PLT's superior stability and cost-effectiveness, despite ChatGPT's competitive performance in some cases. The improved AC-PLT framework offers a scalable, efficient solution to manual coding challenges, reducing variability and time constraints. Future work will explore its role as a recommender system for human coders, further enhancing its practical utility in cognitive psychology and psycholinguistics research.",
     projectUrl: "https://doi.org/10.1007/978-3-031-29642-0",
-    slidesUrl: "images/2025-JornadaUAI-2.pdf"
+    slidesUrl: ""
     },  
     {
     title: "Measuring the Semantic Priming Effect Across Many Languages",
@@ -225,7 +225,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "https://doi.org/10.1109/SCCC59417.2023.10315748",
     abstract: "Hate speech, which targets specific groups based on race, religion, or sexual orientation, is a growing concern, especially on social media. Detecting hate speech is a critical research area, but most models are developed in English, leaving a gap for other languages like Spanish. Spanish presents additional challenges due to its regional variants and slang. In this paper, we introduce HateStack, the winning model of the 2022 Datathon at Universidad Técnica Federico Santa Maria, Chile, designed to detect hate speech in Chilean tweets. HateStack is a two-level ensemble model comprising a feature extraction process, five Level-l models, and a logistic regression as a second-level model. The results demonstrate that HateStack outperforms other ensemble models and RoBERTuito, a transformer-based deep learning model tailored for hate speech detection on tweets. Developing such models in non-English languages is important to detect hate speech effectively.",
     projectUrl: "",
-    slidesUrl: "2023-JCC.pdf"
+    slidesUrl: "images/2023-JCC.pdf"
   }, 
   {
     title: "Describing and understanding the time course of the property listing task",
