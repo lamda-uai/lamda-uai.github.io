@@ -68,7 +68,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "",
     abstract: "Esta presentación desmitifica ideas comunes sobre los Large Language Models (LLMs) y su relación con la inteligencia artificial, explicando de manera sencilla cómo funcionan internamente los LLMs. La charla se organiza en cuatro ejes principales: IA vs. LLMs: Los LLMs son solo una ínfima parte de la inteligencia artificial. Procesamiento del lenguaje: Representación de las palabras en los LLMs. LLMs y la Inteligencia Artificial general: Funcionamiento interno de los LLM, entiendo sus limitaciones. Tamaño del modelo vs. resultados: ¿por qué más parámetros no siempre garantizan un mejor desempeño?",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/charlaLLM.pdf"
     },   
   {
     title: "Towards scalable and reliable coding of Semantic Property Norms: ChatGPT vs. an improved AC-PLT",
@@ -80,7 +80,7 @@ export const publicationData: PublicationData[] = [
     awards: [],
     paperUrl: "",
     abstract: "When using the Property Listing Task (PLT) to collect semantic content for a set of concepts (Concept Property Norms, CPNs), coding raw properties into standardized labels poses significant challenges. In the current work, we address these challenges by improving the Assisted Coding for Property Listing Task (AC-PLT) framework, which helps in the coding process. The current work conducts an ablation study to optimize AC-PLT by evaluating combinations of text cleaning, embedding models (e.g., Word2Vec, E5, LaBSE), and classification methods (e.g., kNN, SVM, XGBoost). Results show that normalization with the E5 embedding model and kNN classification achieves the highest accuracy, with top-1 test accuracies of 0.523 for CPN27 and 0.608 for CPN120 datasets, outperforming the original AC-PLT baseline. Comparisons with ChatGPT (fine-tuned and one-shot) reveal AC-PLT's superior stability and cost-effectiveness, despite ChatGPT's competitive performance in some cases. The improved AC-PLT framework offers a scalable, efficient solution to manual coding challenges, reducing variability and time constraints. Future work will explore its role as a recommender system for human coders, further enhancing its practical utility in cognitive psychology and psycholinguistics research.",
-    projectUrl: "",
+    projectUrl: "https://doi.org/10.1007/978-3-031-29642-0",
     slidesUrl: ""
     },  
     {
@@ -107,7 +107,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "https://doi.org/10.1525/collabra.143030",
     abstract: "We introduce PROXIS, a computational algorithm for the Semantic Fluency Task (SFT), which automatically counts clusters and shifts. We compared its output relative to human coders and to another cluster/shift counting algorithm (Forager), and its performance in predicting executive functions (EF), intelligence, processing speed, and semantic retrieval, also against human coders and to Forager. Correlations with EF subdomains and other cognitive factors closely resemble those of human coders, evidencing convergent validity. We also used Naïve Bayes and Decision Tree for age classification, with PROXIS outputs successfully discriminating age groups, evidence of the meaning and interpretability of those counts. Clusters and shifts were found to be more important than word counts. PROXIS’s consistency extended across semantic categories (animals, clothing, foods), suggesting its robustness and generalizability. Comparing PROXIS convergent validity with Forager’s, we found that they are on par. However, PROXIS ability to discriminate between participants’ age groups is substantially higher than Forager’s. We believe that PROXIS is applicable beyond the specifics of the SFT, and to many tasks in which people list items from semantic memory (e.g., tasks like free associates, top-of-mind, feature listing). Practical implications of the algorithm’s ease of implementation and relevance for studying the relation of the SFT to EFs and other research problems are discussed.",
     projectUrl: "",
-    slidesUrl: "images/charlaLLM.pdf"
+    slidesUrl: ""
     },    
     {
     title: "Convolutional neural network models with low spatial variability hamper the transfer learning process",
