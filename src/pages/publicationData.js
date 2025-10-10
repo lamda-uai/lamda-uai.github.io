@@ -58,7 +58,20 @@ export const publicationData: PublicationData[] = [
     slidesUrl: ""
     }, 
   {
-    title: "Aprendiendo sobre los Large Language Models (LLMs) a través de los mitos",
+    title: "TALK: Automatización de la codificación en tareas de listado de propiedades mediante aprendizaje automático y modelos de lenguaje",
+    date: "2025-10",
+    authors: ["Ramos, Diego"],
+    venue: "Jornada UAI en Estadística y Ciencia de Datos",
+    venueShort: "UAI'25",
+    tags: ["machine learning","AC-PLT","LLMs","memoria semántica"],
+    awards: [],
+    paperUrl: "",
+    abstract: "En esta charla exploraremos cómo es posible replicar el comportamiento de un codificador humano mediante modelos de machine learning para el estudio de la memoria semántica. Este campo de la psicología busca comprender cómo las personas entienden y representan palabras, conceptos y símbolos de forma verbal. Tradicionalmente, estas investigaciones se realizan mediante tareas de listado de propiedades (Property Listing Task, PLT), en las que se recolecta información sobre cómo las personas describen distintos conceptos. Sin embargo, el análisis de estos datos requiere una codificación humana manual, un proceso lento, subjetivo y con limitada reproducibilidad entre estudios. Para abordar este desafío, presentaremos Assisted Codification for PLT (AC-PLT), un framework que aplica técnicas de machine learning y natural language processing para automatizar y acelerar la codificación, comparando su desempeño con el de un large language model.",
+    projectUrl: "",
+    slidesUrl: "images/UAI2025-DiegoRamos.pdf"
+    },     
+  {
+    title: "TALK: Aprendiendo sobre los Large Language Models (LLMs) a través de los mitos",
     date: "2025-10",
     authors: ["Moreno, Sebastián"],
     venue: "Jornada UAI en Estadística y Ciencia de Datos",
