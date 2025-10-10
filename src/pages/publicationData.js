@@ -58,6 +58,19 @@ export const publicationData: PublicationData[] = [
     slidesUrl: ""
     }, 
   {
+    title: "TALK: ¿Pueden los modelos basados en arquitecturas de deep learning aplicarse en nuevas regiones geográficas?: una perspectiva desde teledetección",
+    date: "2025-10",
+    authors: ["Bravo, Alejandra"],
+    venue: "Jornada UAI en Estadística y Ciencia de Datos",
+    venueShort: "UAI'25",
+    tags: ["machine learning","Teledetección","CNNs","Transfer Learning"],
+    awards: [],
+    paperUrl: "",
+    abstract: "En el área de la teledetección, los modelos basados en arquitecturas de redes neuronales convolucionales (CNN) han surgido como una alternativa costo-efectiva para abordar diversos desafíos ecológicos y ambientales. Esto se debe a su capacidad para aprender patrones espaciales y aplicarlos en tareas como la detección de invasiones vegetales, la identificación de árboles muertos, el reconocimiento de coberturas de suelo, entre otras. Sin embargo, cuando se quiere aplicar estos modelos a nuevos datos, debido a sus posibles nuevas características (distribución de datos, variaciones en el ruido, sesgos y otras), estos modelos podrían mostrar un bajo rendimiento, ya que no extrapolan los patrones espaciales aprendidos. Por ello, este estudio tiene como objetivo evaluar el rendimiento de modelos de CNN en nuevas áreas geográficas y, al mismo tiempo, analizar la posible relación entre dicho rendimiento y la similitud entre las características de los datos usados el entrenamiento del modelo y las de las nuevas áreas geográficas donde se requiere usar el modelo. Una relación de este tipo permitiría saber a priori si el modelo debería ser utilizado en una nueva área geográfica y confiar en los resultados obtenidos.",
+    projectUrl: "",
+    slidesUrl: ""
+    },       
+  {
     title: "TALK: Automatización de la codificación en tareas de listado de propiedades mediante aprendizaje automático y modelos de lenguaje",
     date: "2025-10",
     authors: ["Ramos, Diego"],
@@ -94,7 +107,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "",
     abstract: "When using the Property Listing Task (PLT) to collect semantic content for a set of concepts (Concept Property Norms, CPNs), coding raw properties into standardized labels poses significant challenges. In the current work, we address these challenges by improving the Assisted Coding for Property Listing Task (AC-PLT) framework, which helps in the coding process. The current work conducts an ablation study to optimize AC-PLT by evaluating combinations of text cleaning, embedding models (e.g., Word2Vec, E5, LaBSE), and classification methods (e.g., kNN, SVM, XGBoost). Results show that normalization with the E5 embedding model and kNN classification achieves the highest accuracy, with top-1 test accuracies of 0.523 for CPN27 and 0.608 for CPN120 datasets, outperforming the original AC-PLT baseline. Comparisons with ChatGPT (fine-tuned and one-shot) reveal AC-PLT's superior stability and cost-effectiveness, despite ChatGPT's competitive performance in some cases. The improved AC-PLT framework offers a scalable, efficient solution to manual coding challenges, reducing variability and time constraints. Future work will explore its role as a recommender system for human coders, further enhancing its practical utility in cognitive psychology and psycholinguistics research.",
     projectUrl: "https://doi.org/10.1007/978-3-031-29642-0",
-    slidesUrl: ""
+    slidesUrl: "images/2025-JornadaUAI-2.pdf"
     },  
     {
     title: "Measuring the Semantic Priming Effect Across Many Languages",
@@ -147,7 +160,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "https://doi.org/10.1007/978-3-031-76607-7_5",
     abstract: "Land cover maps provide detailed information on the land use of territories, which is useful for public policy making. Constant changes in the landscape limit the usefulness of these maps over time, so they need to be constantly updated. In this context, remote sensing images combined with the use of deep neural networks can be used for this purpose. Although several models are trained on different datasets, we do not know their ability to transfer the learned patterns to new data. In this paper, we evaluate several pre-trained semantic segmentation models on deep convolutional neural networks (CNN) using freely available global RGB data from Sentinel-2. Four CNN models with 32 different architectures were evaluated on data from three continents, on seven different classes. The results show that the best model is the PSPNet with seresnet18, obtaining a test macro F1 score of 0.4950 when the model is trained with data augmentation and fine-tuning.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/2024-CIARP.pdf"
   },  
   {
     title: "WordListsAnalytics: an R package for multiple data analysis of Property Listing Tasks",
@@ -206,13 +219,13 @@ export const publicationData: PublicationData[] = [
     date: "2023-10",
     authors: ["Tobar-Arancibia, Alfonso","Moreno, Sebastian","Lopatin, Javier"],
     venue: "The 42nd IEEE International Conference of the Chilean Computer Science Society",
-    venueShort: "SCCC",
+    venueShort: "JCC",
     tags: ["Hate speech","Stacking","machine learning"],
     awards: [],
     paperUrl: "https://doi.org/10.1109/SCCC59417.2023.10315748",
     abstract: "Hate speech, which targets specific groups based on race, religion, or sexual orientation, is a growing concern, especially on social media. Detecting hate speech is a critical research area, but most models are developed in English, leaving a gap for other languages like Spanish. Spanish presents additional challenges due to its regional variants and slang. In this paper, we introduce HateStack, the winning model of the 2022 Datathon at Universidad Técnica Federico Santa Maria, Chile, designed to detect hate speech in Chilean tweets. HateStack is a two-level ensemble model comprising a feature extraction process, five Level-l models, and a logistic regression as a second-level model. The results demonstrate that HateStack outperforms other ensemble models and RoBERTuito, a transformer-based deep learning model tailored for hate speech detection on tweets. Developing such models in non-English languages is important to detect hate speech effectively.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "2023-JCC.pdf"
   }, 
   {
     title: "Describing and understanding the time course of the property listing task",
@@ -284,26 +297,26 @@ export const publicationData: PublicationData[] = [
     date: "2022-11",
     authors: ["Moreno, Sebastian","Yushimito, Wilfredo","Hughes, Sebastian"],
     venue: "The 41st IEEE International Conference of the Chilean Computer Science Society",
-    venueShort: "SCCC",
+    venueShort: "JCC",
     tags: ["Machine Learning","Help Desk","Assignment","Ensembles","Classification"],
     awards: [],
     paperUrl: "https://doi.org/10.1109/SCCC57464.2022.10000332",
     abstract: "The assignment of Help Desk Support tickets (HDTAP) to programmers or developers is an important problem for Information Technology and software development companies. When the number of tickets and programmers are significant, the assignment becomes a time-consuming task. To handle this issue, companies develop software to manage the generation, the tracking, and the assignment of tickets to employees. Current advances in machine learning can automate the HDTAP, and make it more efficient. In this paper, we propose the use of an ensemble model based on Stacked Generalization that replicates the expert behavior by reducing the classification errors. The model is tested using data of a Chilean company that develops management software for hospitals. The results show that our proposal obtains the best accuracy and F1 score outperforming, consistently, most state-of-the-art models.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/2022-JCC.pdf"
   }, 
   {
-    title: "Hate Speech Recognition in Chilean Tweets",
-    date: "2023-10",
+    title: "A flag system to label boat with suspicious behaviour",
+    date: "2022-11",
     authors: ["Martinez, Rodrigo","Moreno, Sebastian"],
     venue: "The 41st IEEE International Conference of the Chilean Computer Science Society",
-    venueShort: "SCCC",
+    venueShort: "JCC",
     tags: ["Illegal Fishing","Inspection","Flag System"],
     awards: [],
     paperUrl: "https://doi.org/10.1109/SCCC57464.2022.10000380",
     abstract: "In recent years, the increased demand in the fishing industry has led to indiscriminate exploitation of maritime resources. To address this problem, Chile established boat fishing quotas that are inspected on-site but at random, verifying that their cargo corresponds to the tons of fishes indicated in their reports. However, this is inefficient and fraudulent fishermen have not been identified, increasing the necessity of a focused inspection. This paper proposes a flags system based on statistical data analysis, able to find potential fraudulent fishing boats. The flag system is built based on several hypothesis tests that evaluate significant differences in two aspects: fish frequency and cargo container utilization, where any significant difference is considered a new flag. The results show multiple boats with different behaviors for on-site versus documented reports, implying that the proposed flag system can point out fishing vessels with highly suspicious behavior.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/2022-JCC-1.pdf"
   },   
   {
     title: "CPNCoverageAnalysis: An R package for parameter estimation in conceptual properties norming studies",
