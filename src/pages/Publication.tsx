@@ -60,7 +60,7 @@ export function Publication(): ReactElement {
             title={'Publications'}
             description={''}
             entries={papers}
-            listHeader={'Published Papers'}
+            listHeader={'Published Papers and talks'}
             defaultSortCriterion="date"
             defaultReverse={true}
             enableSearch
