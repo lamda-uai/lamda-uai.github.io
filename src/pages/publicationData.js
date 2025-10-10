@@ -56,7 +56,20 @@ export const publicationData: PublicationData[] = [
     abstract: "Accurate estimation of surgical case duration is essential to improve operating room efficiency and optimize hospital resources. This study analyzed 2,265 breast cancer surgeries performed at the Chilean National Cancer Institute between June 2019 and December 2024 to develop and evaluate multiple machine learning regression models. Model performance was compared with the hospital’s current estimation method using root mean squared Error (RMSE), mean absolute error (MAE), and the coefficient of determination. The best-performing model, eXtreme Gradient Boosting (XGBoost), reduced MAE from 39.54 to 21.80 minutes, RMSE from 49.72 to 28.92 minutes, and improved the coefficient of determination from –0.01 to 0.66. Feature importance analysis revealed that the surgeon’s time estimation—based on experience—was the second most influential predictor, followed by operational, procedure, team, and oncologic features, underscoring the need to complement clinical expertise with data-driven insights. These findings demonstrate the potential of machine learning models to enhance surgical time prediction, supporting more reliable operating room scheduling and improved resource utilization in oncology surgery.",
     projectUrl: "",
     slidesUrl: ""
-    },  
+    }, 
+  {
+    title: "Aprendiendo sobre los Large Language Models (LLMs) a través de los mitos",
+    date: "2025-10",
+    authors: ["Moreno, Sebastián"],
+    venue: "Jornada UAI en Estadística y Ciencia de Datos",
+    venueShort: "UAI'25",
+    tags: ["machine learning","Transformer","LLMs"],
+    awards: [],
+    paperUrl: "",
+    abstract: "Esta presentación desmitifica ideas comunes sobre los Large Language Models (LLMs) y su relación con la inteligencia artificial, explicando de manera sencilla cómo funcionan internamente los LLMs. La charla se organiza en cuatro ejes principales: IA vs. LLMs: Los LLMs son solo una ínfima parte de la inteligencia artificial. Procesamiento del lenguaje: Representación de las palabras en los LLMs. LLMs y la Inteligencia Artificial general: Funcionamiento interno de los LLM, entiendo sus limitaciones. Tamaño del modelo vs. resultados: ¿por qué más parámetros no siempre garantizan un mejor desempeño?",
+    projectUrl: "",
+    slidesUrl: ""
+    },   
   {
     title: "Towards scalable and reliable coding of Semantic Property Norms: ChatGPT vs. an improved AC-PLT",
     date: "2025-09",
@@ -94,7 +107,7 @@ export const publicationData: PublicationData[] = [
     paperUrl: "https://doi.org/10.1525/collabra.143030",
     abstract: "We introduce PROXIS, a computational algorithm for the Semantic Fluency Task (SFT), which automatically counts clusters and shifts. We compared its output relative to human coders and to another cluster/shift counting algorithm (Forager), and its performance in predicting executive functions (EF), intelligence, processing speed, and semantic retrieval, also against human coders and to Forager. Correlations with EF subdomains and other cognitive factors closely resemble those of human coders, evidencing convergent validity. We also used Naïve Bayes and Decision Tree for age classification, with PROXIS outputs successfully discriminating age groups, evidence of the meaning and interpretability of those counts. Clusters and shifts were found to be more important than word counts. PROXIS’s consistency extended across semantic categories (animals, clothing, foods), suggesting its robustness and generalizability. Comparing PROXIS convergent validity with Forager’s, we found that they are on par. However, PROXIS ability to discriminate between participants’ age groups is substantially higher than Forager’s. We believe that PROXIS is applicable beyond the specifics of the SFT, and to many tasks in which people list items from semantic memory (e.g., tasks like free associates, top-of-mind, feature listing). Practical implications of the algorithm’s ease of implementation and relevance for studying the relation of the SFT to EFs and other research problems are discussed.",
     projectUrl: "",
-    slidesUrl: ""
+    slidesUrl: "images/charlaLLM.pdf"
     },    
     {
     title: "Convolutional neural network models with low spatial variability hamper the transfer learning process",
