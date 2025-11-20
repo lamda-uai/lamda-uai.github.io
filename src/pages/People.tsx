@@ -132,22 +132,6 @@ export function People(): ReactElement {
 
           <div className="clearfix"> </div>
           <h2>Students</h2>
-
-          <div className="banner-bottom-left">
-            <a href="https://www.google.com/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/SofiaAlvarez.png"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://www.google.com/">Sofía Álvarez</a>
-            </h3>
-            <p>MSc student (MSDS)</p>
-          </div>  
           
           <div className="banner-bottom-left">
             <a href="https://designlab.uai.cl/equipo/denis-berroeta/">
@@ -339,6 +323,23 @@ export function People(): ReactElement {
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
 
+
+          <div className="banner-bottom-left">
+            <a href="https://www.google.com/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/SofiaAlvarez.png"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/sofia-alvarez-aa5b42273/">Sofía Álvarez</a>
+            </h3>
+            <p>MSDS (2025)</p>
+          </div>  
+          
 
           <div className="banner-bottom-left">
             <div className="portrait">
