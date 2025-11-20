@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
          <li>
+            <b>Nov. 2025: </b> Sofia Álvarez has successfully defended her Master of Science in Data Science, Congratulations!!!.
+          </li>
+         <li>
             <b>Oct. 2025: </b> Three conference paper accepted in <a href="https://www.icprs.org">The IEEE 15th International Conference on Pattern Recognition Systems</a>. Congrats to Álvarez, Bravo, Ramos, Tobar-Arancibia.
           </li>
          <li>
