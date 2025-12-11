@@ -15,6 +15,12 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
          <li>
+            <b>Dec. 2025: </b> Alfonso Tobar has successfully defended his PhD thesis proposal, Congratulations!!!
+          </li>
+			<li>
+            <b>Dec. 2025: </b> ICPRS 2025 was a completely success, thanks to everyone. 
+          </li>
+			<li>
             <b>Nov. 2025: </b> Sofia Álvarez has successfully defended her Master of Science in Data Science, Congratulations!!!.
           </li>
          <li>
@@ -91,22 +97,7 @@ export function Home(): ReactElement {
           </li>
           <li>
             <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
-          </li>
-          <li>		  
-            <b>Nov. 2024: </b> <a href="https://doi.org/10.1007/978-3-031-76607-7_5">Paper published</a> in <a href="http://www.ciarp24.org/">CIARP 2024</a>. Congrats to Bravo-Diaz and Corvalan.
-          </li>                    		
-          <li>
-            <b>Oct. 2024: </b> Alfonso Tobar is sub-reviewer at The 18th ACM International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2025/">WSDM 2025</a>).
-          </li>		
-          <li>
-            <b>Oct. 2024: </b> Agustin Ghent is sub-reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
-          </li>				
-	<li>
-            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at 43rd IEEE International Conference of the Chilean Computer Science Society.
-          </li>				
-          <li>
-            <b>Oct. 2024: </b> Alejandra Bravo-Diaz is reviewer at The Thirty-Eighth Annual Conference on Neural Information Processing Systems (<a href="https://neurips.cc/">NeuRIPS 2024</a>).		  
-          </li>						
+          </li>					
         </ul>
       </div>
       <div id="about" className="team">
