@@ -298,7 +298,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/alfonso-tobar/">Alfonso Tobar</a>
             </h3>
-            <p>Ph.D. student (DDS)</p>
+            <p>Ph.D. candidate (DDS)</p>
           </div>               
 
           
