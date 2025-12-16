@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
          <li>
+            <b>Dec. 2025: </b> Eduardo Carrasco has successfully defended his PhD thesis proposal, Congratulations!!!
+          </li>
+         <li>
             <b>Dec. 2025: </b> Alfonso Tobar has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
 			<li>
