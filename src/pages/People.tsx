@@ -197,7 +197,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/eduardo-carrasco-vidal">Eduardo Carrasco</a>
             </h3>
-            <p>Ph.D. student (DISC)</p>
+            <p>Ph.D. candidate (DISC)</p>
             <p>co-advisor</p>
           </div> 
           
