@@ -14,6 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>Last year news</h4>
         <ul>
+		 <li>
+            <b>Jan. 2026: </b> Agustín Ghent-Soto has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
+          </li>			
          <li>
             <b>Dec. 2025: </b> Eduardo Carrasco has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
@@ -24,7 +27,7 @@ export function Home(): ReactElement {
             <b>Dec. 2025: </b> ICPRS 2025 was a completely success, thanks to everyone. 
           </li>
 			<li>
-            <b>Nov. 2025: </b> Sofia Álvarez has successfully defended her Master of Science in Data Science, Congratulations!!!.
+            <b>Nov. 2025: </b> Sofia Álvarez has successfully defended her thesis in Master of Science in Data Science, Congratulations!!!.
           </li>
          <li>
             <b>Oct. 2025: </b> Three conference paper accepted in <a href="https://www.icprs.org">The IEEE 15th International Conference on Pattern Recognition Systems</a>. Congrats to Álvarez, Bravo, Ramos, Tobar-Arancibia.
