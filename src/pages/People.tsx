@@ -219,22 +219,6 @@ export function People(): ReactElement {
           <p>co-advisor</p>
           </div>  
           
-          <div className="banner-bottom-left">
-            <a href="https://www.linkedin.com/in/agustinsso">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/ghent.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
-            </h3>
-            <p>MSc Student (MSDS)</p>
-          </div>
-
          <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/sebastian-orellana-casanova-b31b48142/">
               <div className="portrait">
@@ -323,6 +307,21 @@ export function People(): ReactElement {
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
 
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/agustinsso">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/ghent.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
+            </h3>
+            <p>MSDS (2026)</p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://www.google.com/">
@@ -338,6 +337,10 @@ export function People(): ReactElement {
               <a href="https://www.linkedin.com/in/sofia-alvarez-aa5b42273/">Sofía Álvarez</a>
             </h3>
             <p>MSDS (2025)</p>
+            <div className="details">
+              <h5>CENIA</h5>
+              <h5>Researcher</h5>
+            </div>            
           </div>  
           
 
