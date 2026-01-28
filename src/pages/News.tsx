@@ -6,6 +6,9 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <ul className="news-list">
+		 <li>
+            <b>Jan. 2026: </b> Agustín Ghent-Soto has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
+          </li>						
          <li>
             <b>Dec. 2025: </b> Eduardo Carrasco has successfully defended his PhD thesis proposal, Congratulations!!!
           </li>
