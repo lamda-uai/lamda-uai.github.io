@@ -132,6 +132,23 @@ export function People(): ReactElement {
 
           <div className="clearfix"> </div>
           <h2>Students</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/BenjaminLillo.png"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">Benjamín Lillo</a>
+            </h3>
+            <p>MSc student (MSDS)</p>
+          </div>
+
           
           <div className="banner-bottom-left">
             <a href="https://designlab.uai.cl/equipo/denis-berroeta/">
@@ -321,6 +338,10 @@ export function People(): ReactElement {
               <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
             </h3>
             <p>MSDS (2026)</p>
+            <div className="details">
+              <h5>CENIA</h5>
+              <h5>Researcher</h5>
+            </div>            
           </div>
 
           <div className="banner-bottom-left">
@@ -337,10 +358,6 @@ export function People(): ReactElement {
               <a href="https://www.linkedin.com/in/sofia-alvarez-aa5b42273/">Sofía Álvarez</a>
             </h3>
             <p>MSDS (2025)</p>
-            <div className="details">
-              <h5>CENIA</h5>
-              <h5>Researcher</h5>
-            </div>            
           </div>  
           
 
