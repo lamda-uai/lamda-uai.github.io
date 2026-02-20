@@ -15,7 +15,7 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
           <li>
-            <b>Feb. 2025: </b> Alejandra Bravo won the 2026 national Ph.D. scholarship (ANID), Congratulations!!!
+            <b>Feb. 2026: </b> Alejandra Bravo won the 2026 national Ph.D. scholarship (ANID), Congratulations!!!
           </li>
 		 <li>
             <b>Jan. 2026: </b> Agustín Ghent-Soto has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
