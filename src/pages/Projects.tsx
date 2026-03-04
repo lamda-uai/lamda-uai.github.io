@@ -7,6 +7,13 @@ export function Projects(): ReactElement {
         <h4>Research Projects</h4>
         <ul className="project_ul">
           <li>
+            Methodology for the characterization of photovoltaic modules through daytime photoluminescence in solar power plants under commercial operation.<br />
+            FONDEF #IT25I0080, Chile (2025-2027).<br />
+            Researchers: S. Moreno and B. Lillo.
+          </li>
+        </ul>        
+        <ul className="project_ul">
+          <li>
             Intrusion aware: An integral platform to detect and reply cyberattacks using responsible artificial intelligence.<br />
             FONDEF #IT24I0144, Chile (2024-2026).<br />
             Researchers: S. Moreno and A. Tobar.
