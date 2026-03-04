@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
           <li>
+            <b>Mar. 2026: </b> Journal paper accepted in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639">IEEE Access</a> (WOS-Q2). Congrats to Martinez.
+          </li>			
+          <li>
             <b>Feb. 2026: </b> Alejandra Bravo won the 2026 national Ph.D. scholarship (ANID), Congratulations!!!
           </li>
 		 <li>
@@ -74,39 +77,6 @@ export function Home(): ReactElement {
 	<li>
             <b>Mar. 2025: </b> Agustin Ghent attended the Latin American Meeting in Artificial Intelligence (KHIPU), Chile.
         </li>		
-         <li>
-            <b>Feb. 2025: </b> Alejandra Bravo-Diaz and Sebastián Moreno were invited as reviewer and area chair at NeurIPS 2025. 
-          </li>		
-          <li>
-            <b>Jan. 2025: </b> Diego Ramos won the 2025 national Ph.D. scholarship (ANID), Congratulations!!!
-          </li>
-          <li>
-            <b>Jan. 2025: </b> Sebastián Lillo has successfully defended his Master in Industrial Engineering and Operational Research thesis, Congratulations!!!
-          </li>
-	<li>
-            <b>Jan. 2025: </b> Alejandra Bravo-Diaz is invited to give a talk at Universidad Católica del Maule.
-          </li>		
-         <li>
-            <b>Jan. 2025: </b> Alejandra Bravo-Diaz has successfully defended her PhD thesis proposal, Congratulations!!!
-          </li>
-          <li>
-            <b>Jan. 2025: </b> Alfonso Tobar has started working as a researcher in FONDEF #IT24I0144.
-          </li>
-          <li>
-            <b>Jan. 2025: </b> Agustin Ghent has started an internship at the Centro Nacional de Inteligencia Artificial (Cenia), Chile.
-          </li>
-          <li>
-            <b>Jan. 2025: </b> Sofía Álvarez has started an internship in ENTEL, Chile.
-          </li>
-	<li>
-            <b>Dec. 2024: </b> Alfonso Tobar attended remotely the Thirty-Eight Annual Conference on Neural Information Processing Systems (NeurIPS), New Orleans, USA.		  
-          </li> 		   
-	<li>
-            <b>Dec. 2024: </b> Agustín Ghent attended the Latin American Summer School on Robotics (LACORO), Rancagua Chile.
-          </li>
-          <li>
-            <b>Dec. 2024: </b> Denis Berroeta has successfully defended his Master of Science in Data Science thesis, Congratulations!!!
-          </li>					
         </ul>
       </div>
       <div id="about" className="team">
