@@ -7,6 +7,9 @@ export function News(): ReactElement {
         <h4>News</h4>
         <ul className="news-list">
           <li>
+            <b>Mar. 2026: </b> Journal paper accepted in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639">IEEE Access</a> (WOS-Q2). Congrats to Martinez.
+          </li>						
+          <li>
             <b>Feb. 2026: </b> Alejandra Bravo won the 2026 national Ph.D. scholarship (ANID), Congratulations!!!
           </li>
 		 <li>
