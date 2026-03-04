@@ -18,6 +18,19 @@ interface PublicationData {
 }
 
 export const publicationData: PublicationData[] = [
+   {
+    title: "Automatic detection of Beggiatoa microbial mats in salmon farms videos",
+    date: "2026-03",
+    authors: ["Martinez, Nicolás","Moreno, Sebastián","Plaza-Vega, Francisco","Castilo, Jose-Emilio","Carrasco, Miguel"],
+    venue: "IEEE Access",
+    venueShort: "IEEE Access",
+    tags: ["Aquaculture","Beggiatoa microbial mats","Chilean salmon farms","Convolutional Neural Network (CNN)"],
+    awards: [],
+    paperUrl: "https://doi.org/10.1109/ACCESS.2026.3669848",
+    abstract: "Beggiatoa microbial mats are natural ecosystems present on the seabed of anoxic zones, and their presence on seabeds are linked with high contamination. For this reason, Chilean aquaculture regulations require the regular analysis of the Salmonid Farming Centers (SFC) seabeds through recorded videos. If Beggiatoa microbial mats are detected, the SFC is prohibited from starting a new production cycle. In this paper, we propose a Convolutional Neural Network (CNN) model based on VGG-16 for the automatic detection of Beggiatoa microbial mats in seabed videos. Our method involves extracting frames from underwater video footage and classifying them using a CNN. We performed an extensive hyperparameter search and evaluation using k-fold cross-validation, testing over 40 different hyperparameter combinations. The final model includes an optimized architecture of the VGG-16 network, achieving an F2-score of 0.83 +- 0.02 and a sensitivity of 0.93 +- 0.05 on the test set, indicating a failure to detect only 10% of the images with Beggiatoa presence. This approach aims to improve the scalability and accuracy of environmental monitoring in aquaculture by reducing the reliance on manual video analysis and minimizing human error. Our automated detection method streamlines the monitoring process, supports compliance with environmental regulations, and contributes to more sustainable aquaculture practices.",
+    projectUrl: "",
+    slidesUrl: ""
+    },    
   {
     title: "Speeding up KNN-WH for Origin-Destination Travel Time Estimation",
     date: "2025-12",
