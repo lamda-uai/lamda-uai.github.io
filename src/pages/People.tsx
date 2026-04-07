@@ -232,7 +232,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://www.linkedin.com/in/andrés-gajardo-acevedo-80b20a96/">Andres Gajardo</a>
             </h3>
-            <p>Ph.D. student (DDS)</p>
+            <p>Ph.D. candidate (DDS)</p>
           <p>co-advisor</p>
           </div>  
           
