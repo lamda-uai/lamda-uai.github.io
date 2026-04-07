@@ -7,6 +7,12 @@ export function News(): ReactElement {
         <h4>News</h4>
         <ul className="news-list">
           <li>
+            <b>April 2026: </b> Andrés Gajardo has successfully defended his PhD thesis proposal, Congratulations!!!
+          </li>			
+          <li>
+            <b>April 2026: </b> Diego Ramos has begun his work as a researcher on the FONDEF project #IT25I0080.
+          </li>			
+          <li>
             <b>Mar. 2026: </b> Journal paper accepted in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639">IEEE Access</a> (WOS-Q2). Congrats to Martinez.
           </li>						
           <li>
