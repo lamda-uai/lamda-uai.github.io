@@ -151,7 +151,7 @@ export function People(): ReactElement {
 
           
           <div className="banner-bottom-left">
-            <a href="https://designlab.uai.cl/equipo/denis-berroeta/">
+            <a href="https://www.linkedin.com/in/denis-berroeta/">
               <div className="portrait">
                 <img
                   alt=""
@@ -254,7 +254,7 @@ export function People(): ReactElement {
           </div> 
           
           <div className="banner-bottom-left">
-            <a href="https://www.google.com/">
+            <a href="https://www.linkedin.com/in/christian-soledispa-6ab340174/">
               <div className="portrait">
                 <img
                   alt=""
