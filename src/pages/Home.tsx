@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
           <li>
+            <b>April 2026: </b> Andrés Gajardo has successfully defended his PhD thesis proposal, Congratulations!!!
+          </li>						
+          <li>
             <b>Mar. 2026: </b> Journal paper accepted in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639">IEEE Access</a> (WOS-Q2). Congrats to Martinez.
           </li>			
           <li>
