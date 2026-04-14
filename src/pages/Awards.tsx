@@ -8,6 +8,9 @@ export function Awards(): ReactElement {
         <div className="clearfix"> </div>
         <ul className="news-list">
           <li>
+            <b>April 2026: </b> Alejandra Bravo won the {' '}<strong>Research Grants in Germany</strong>{' '} from DAAD, Germany.
+          </li>			
+          <li>
             <b>February 2026: </b> Alejandra Bravo received{' '} 
             <strong>national PhD's scholarship</strong>{' '}
             from ANID, Chile.
