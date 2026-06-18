@@ -7,6 +7,9 @@ export function News(): ReactElement {
         <h4>News</h4>
         <ul className="news-list">
 		  <li>
+            <b>June 2026: </b> Christian Soledispa has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
+          </li>			
+		  <li>
             <b>April 2026: </b> Alejandra Bravo won the Research Grants in Germany, DAAD, Congratulations!!!
           </li>			
           <li>
