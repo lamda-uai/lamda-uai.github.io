@@ -9,7 +9,7 @@ export function Projects(): ReactElement {
           <li>
             Methodology for the characterization of photovoltaic modules through daytime photoluminescence in solar power plants under commercial operation.<br />
             FONDEF #IT25I0080, Chile (2025-2027).<br />
-            Researchers: S. Moreno and B. Lillo.
+            Researchers: S. Moreno and B. Lillo and D. Ramos.
           </li>
         </ul>        
         <ul className="project_ul">
