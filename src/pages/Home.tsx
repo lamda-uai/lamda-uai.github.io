@@ -15,6 +15,9 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
 		  <li>
+            <b>June 2026: </b> Christian Soledispa has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
+          </li>						
+		  <li>
             <b>April 2026: </b> Alejandra Bravo won the Research Grants in Germany, DAAD, Congratulations!!!
           </li>			
           <li>
@@ -62,12 +65,6 @@ export function Home(): ReactElement {
 		<li>
             <b>July 2025: </b> Workshop paper accepted in <a href="https://sites.google.com/view/ai4supplychain-kdd-2025/home">Workshop on AI for Supply Chain: Today and Future</a>. Congrats to Alvarez and Tobar.
           </li>          						
-			<li>
-            <b>June 2025: </b> Workshop paper accepted in <a href="https://kdd25scisocllm.github.io">SciSoc LLM Workshop at KDD 2025</a>. Congrats to Ramos.
-          </li>          						
-         <li> 
-            <b>May  2025: </b> Alejandra Bravo-Diaz presented: Can models based on deep learning architectures be applied in new geographic regions? A remote sensing perspective, in the V Reunión Bienal IALE-Chile.
-          </li>		
         </ul>
       </div>
       <div id="about" className="team">
