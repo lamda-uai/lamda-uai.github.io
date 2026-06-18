@@ -75,23 +75,6 @@ export function People(): ReactElement {
             <p>Full Professor</p>
             <p>Universidad Adolfo Ibáñez</p>            
           </div>          
-
-          <div className="banner-bottom-left">
-            <a href="https://negocios.uai.cl/profesor/sebastian-gallegos/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/Gallegos.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://negocios.uai.cl/profesor/sebastian-gallegos/">Sebastián Gallegos</a>
-            </h3>
-            <p>Assistant Professor</p>
-            <p>Universidad Adolfo Ibáñez</p>            
-          </div>
           
           <div className="banner-bottom-left">
             <a href="https://ingenieria.uai.cl/profesor/javier-lopatin/">
@@ -252,24 +235,7 @@ export function People(): ReactElement {
             <p>Ph.D. candidate (DDS)</p>
             <p>co-advisor</p>
           </div> 
-          
-          <div className="banner-bottom-left">
-            <a href="https://www.linkedin.com/in/christian-soledispa-6ab340174/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/unknown.png"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://www.google.com">Christian Soledispa</a>
-            </h3>
-            <p>MSc student (MSDS)</p>
-          </div>    
-
-          
+                    
           <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/diego-ramos-alvarez/">
               <div className="portrait">
@@ -325,6 +291,24 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/christian-soledispa-6ab340174/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/unknown.png"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.google.com">Christian Soledispa</a>
+            </h3>
+            <p>MSDS (2026)</p>
+          </div>    
+
+
+          
+          <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/agustinsso">
               <div className="portrait">
                 <img
@@ -339,7 +323,7 @@ export function People(): ReactElement {
             </h3>
             <p>MSDS (2026)</p>
             <div className="details">
-              <h5>CENIA</h5>
+              <h5>Tottus</h5>
               <h5>Researcher</h5>
             </div>            
           </div>
@@ -358,6 +342,11 @@ export function People(): ReactElement {
               <a href="https://www.linkedin.com/in/sofia-alvarez-aa5b42273/">Sofía Álvarez</a>
             </h3>
             <p>MSDS (2025)</p>
+            <div className="details">
+              <h5>ENTEL</h5>
+              <h5>Researcher</h5>
+            </div>            
+            
           </div>  
           
 
