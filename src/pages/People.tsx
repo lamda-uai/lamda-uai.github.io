@@ -319,7 +319,7 @@ export function People(): ReactElement {
               </div>
             </a>
             <h3>
-              <a href="https://www.linkedin.com/in/agustinsso">Agustin Ghent</a>
+              <a href="https://www.aghents.me">Agustin Ghent</a>
             </h3>
             <p>MSDS (2026)</p>
             <div className="details">
