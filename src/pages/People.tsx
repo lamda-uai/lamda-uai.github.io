@@ -323,8 +323,8 @@ export function People(): ReactElement {
             </h3>
             <p>MSDS (2026)</p>
             <div className="details">
-              <h5>Tottus</h5>
-              <h5>Researcher</h5>
+              <h5>Falabella</h5>
+              <h5>AI Engineer</h5>
             </div>            
           </div>
 
