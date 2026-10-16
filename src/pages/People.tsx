@@ -115,23 +115,6 @@ export function People(): ReactElement {
 
           <div className="clearfix"> </div>
           <h2>Students</h2>
-
-          <div className="banner-bottom-left">
-            <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/BenjaminLillo.png"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">Benjamín Lillo</a>
-            </h3>
-            <p>MSc student (MSDS)</p>
-          </div>
-
           
           <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/denis-berroeta/">
@@ -291,6 +274,25 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
+            <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/BenjaminLillo.png"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://www.linkedin.com/in/benjamín-andrés-lillo-urmeneta-336745219/">Benjamín Lillo</a>
+            </h3>
+            <p>MSDS (2026)</p>
+            <div className="details">
+              <h5>Seeking Ph.D.</h5>
+            </div>                        
+          </div>
+          
+          <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/christian-soledispa-6ab340174/">
               <div className="portrait">
                 <img
@@ -304,6 +306,10 @@ export function People(): ReactElement {
               <a href="https://www.google.com">Christian Soledispa</a>
             </h3>
             <p>MSDS (2026)</p>
+            <div className="details">
+              <h5>Seeking Ph.D.</h5>
+            </div>            
+            
           </div>    
 
 
