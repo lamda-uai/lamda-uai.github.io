@@ -15,7 +15,13 @@ export function Home(): ReactElement {
         <h4>Last year news</h4>
         <ul>
 		  <li>
-            <b>October 2026: </b> Benjamín Lillo has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
+            <b>Nov. 2026: </b> Journal paper accepted in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
+          </li>						
+		  <li>
+            <b>Nov. 2026: </b> Journal paper accepted in <a href="https://www.mdpi.com/journal/sensors"> (WOS-Q2). 
+          </li>									
+		  <li>
+            <b>Oct. 2026: </b> Benjamín Lillo has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
           </li>						
 		  <li>
             <b>June 2026: </b> Alejandra Bravo won the visiting researcher program scholarship from ANID, Congratulations!!!
