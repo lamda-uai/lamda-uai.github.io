@@ -23,6 +23,9 @@ export function Home(): ReactElement {
 		  <li>
             <b>Oct. 2026: </b> Benjamín Lillo has successfully defended his thesis in the Master of Science in Data Science, Congratulations!!!.
           </li>						
+         <li>
+            <b>Aug. 2026: </b> Conference paper accepted in <a href="https://jcc2026.utalca.cl">The 45th Conferencia Internacional de la Sociedad Chilena de Ciencia de la Computación (SCCC)</a>. Congrats to Bravo.
+          </li>			  
 		  <li>
             <b>June 2026: </b> Alejandra Bravo won the visiting researcher program scholarship from ANID, Congratulations!!!
           </li>			
