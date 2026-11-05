@@ -18,6 +18,45 @@ interface PublicationData {
 }
 
 export const publicationData: PublicationData[] = [
+  {
+    title: "A Fully Automatic Codification Tool for the Property Listing Task",
+    date: "2026-11",
+    authors: ["Chaigneau, Sergio","Ramos, Diego","Canessa, Enrique","Lagos, Rodrigo","Moreno, Sebastián"],
+    venue: "Behavior Research Methods",
+    venueShort: "BRM",
+    tags: ["Fully Automatic Coding Tool", "Property Listing Task","semantic memory","human coding","automatic coding"],
+    awards: [],
+    paperUrl: "",
+    abstract: "We provide a Fully Automatic Coding Tool (FACT) for the Property Listing Task (PLT). The PLT is used to explore shared semantic domains by asking subjects to freely describe semantic properties associated with a given concept (e.g., “what things are typically true of democracy?”). This and other similar tasks are useful to capture semantic relations in a semantic field, but their use is limited because raw data (i.e., the properties produced by subjects) are noisy and require coding. Noise is due to participants often using diverse lexical forms, paraphrases, or idiosyncratic expressions to refer to similar ideas, which requires responses to be standardized into a common set of features by human coders. Human coding is problematic because it is costly and of limited reliability. We provide code and rationale for our FACT tool, argue why it provides a sufficiently acceptable solution to human coding limitations, and present three use cases to show its applicability to large data sets. Importantly, FACT allows defining semantic properties not by ontology, a much debated topic, but by a reproducible algorithm, permitting comparisons and replications across datasets despite ongoing theoretical disputes.",
+    projectUrl: "",
+    slidesUrl: ""
+    },    
+  {
+    title: "Voronoi-based heuristic algorithms for speed camera location considering area-wide influence",
+    date: "2026-11",
+    authors: ["Fuenzalida, Sebastián", "Yushimito, Wilfredo","Moreno, Sebastián"],
+    venue: "Sensors",
+    venueShort: "SENSORS",
+    tags: ["Speed cameras","spillover effect","location","Voronoi diagrams","Genetic Algorithm","Nelder-Mead"],
+    awards: [],
+    paperUrl: "",
+    abstract: "Speed cameras are typically placed at high-crash locations to deter speeding. However, their deterrent effect extends beyond the installation site, as drivers moderate their speed in surrounding areas through halo and spillover effects. This study formulates speed camera location as a continuous facility location problem in which each camera’s influence decays with distance, approximating these effects as a radial, area-wide influence. Voronoi diagrams partition the study area into camera influence regions, and the objective is to maximize the average modeled probability of speed reduction under three assumed distance-decay functions (linear, concave, and convex) with influence distances of 600 to 1000 m. A Nelder–Mead algorithm (NM) and a Genetic Algorithm (GA) are used to relocate a fixed number of cameras, starting from recurrent crash hotspots in Santiago and Providencia, Chile. Results are averaged over 30 independent runs and compared with a Greedy relocation heuristic. Relative to the hotspot-based placement, the GA increases the average modeled probability of speed reduction by up to 14.9 percentage points on average and by up to 24.2, outperforming NM and the Greedy algorithm. Because the decay functions are assumed rather than calibrated, these gains reflect improved modeled coverage, and empirical validation is needed before safety benefits can be claimed.",
+    projectUrl: "",
+    slidesUrl: ""
+    },    
+   {
+    title: "Forecasting Surgical Waiting List Demand: A Traumatology Time Series Case Study in Chile",
+    date: "2026-08",
+    authors: ["Escuti, Enzo","Acuña, Jorge","Bravo-Parra, Josefa","Lever, Scarlet","Moreno, Sebastián"],
+    venue: "XLV Int. Conf. of the Chilean Computer Science Society",
+    venueShort: "SCCC 2026",
+    tags: ["Time series forecasting", "surgical waiting lists", "machine learning", "out-of-sample validation", "healthcare management"],
+    awards: [],
+    paperUrl: "",
+    abstract: "Accurate surgical demand forecasting is essential for optimizing planning and resource allocation in capacity-constrained healthcare systems with prolonged waiting lists. In Chile, non-GES traumatology surgeries constitute a major component of the national surgical backlog. This study develops and compares forecasting models for monthly non-GES traumatology surgical demand in the Biobio Region. The analysis uses aggregated and disaggregated data from its four Health Services (Arauco, Biobio, Concepcion, Talcahuano) between 2015 and 2023. Several approaches, including Seasonal Autoregressive Integrated Moving Average (SARIMA), Self-Exciting Threshold Autoregressive (SETAR), and Support Vector Regression (SVR), were compared against naive and moving-average baselines under two training scenarios that included or excluded the SARS-CoV-2 pandemic period, respectively. The best-performing models reduced MAPE by up to 37.6% relative to baselines, achieving errors of approximately 14%-28%. SVR yielded the most accurate forecasts for the regional aggregate, Talcahuano, and Biobio, while SARIMA performed best for Concepcion and Arauco. Furthermore, aggregated regional demand consistently produced lower forecasting errors than individual Health Service series. These findings show that no single model dominates across series: forecasting performance depends on the structural characteristics of each demand series, highlighting the value of tailored model selection and machine learning methods for capturing complex, aggregated demand patterns in healthcare forecasting.",
+    projectUrl: "",
+    slidesUrl: ""
+    },    
    {
     title: "Automatic detection of Beggiatoa microbial mats in salmon farms videos",
     date: "2026-03",
