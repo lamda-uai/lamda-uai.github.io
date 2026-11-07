@@ -59,27 +59,6 @@ export function Home(): ReactElement {
 			<li>
             <b>Dec. 2025: </b> ICPRS 2025 was a completely success, thanks to everyone. 
           </li>
-			<li>
-            <b>Nov. 2025: </b> Sofia Álvarez has successfully defended her thesis in Master of Science in Data Science, Congratulations!!!.
-          </li>
-         <li>
-            <b>Oct. 2025: </b> Three conference paper accepted in <a href="https://www.icprs.org">The IEEE 15th International Conference on Pattern Recognition Systems</a>. Congrats to Álvarez, Bravo, Ramos, Tobar-Arancibia.
-          </li>
-         <li>
-            <b>Sept. 2025: </b> Sebastián Orellana has successfully defended his PhD thesis proposal. Congratulations!!!
-          </li>
-		<li>
-            <b>Sept. 2025: </b> Journal paper accepted in <a href="https://link.springer.com/journal/13428">Behavior Research Methods</a> (WOS-Q1). Congrats to Ramos.
-          </li>          									
-		<li>
-            <b>Aug. 2025: </b> Welcome to Joaquín Urrutia!!!
-          </li>          									
-		<li>
-            <b>Aug. 2025: </b> Diego Ramos attended  KDD 2025. Congrats to Ramos.
-          </li>          									
-		<li>
-            <b>July 2025: </b> Workshop paper accepted in <a href="https://sites.google.com/view/ai4supplychain-kdd-2025/home">Workshop on AI for Supply Chain: Today and Future</a>. Congrats to Alvarez and Tobar.
-          </li>          						
         </ul>
       </div>
       <div id="about" className="team">
