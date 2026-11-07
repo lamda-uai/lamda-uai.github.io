@@ -39,7 +39,7 @@ export const publicationData: PublicationData[] = [
     venueShort: "SENSORS",
     tags: ["Speed cameras","spillover effect","location","Voronoi diagrams","Genetic Algorithm","Nelder-Mead"],
     awards: [],
-    paperUrl: "",
+    paperUrl: "https://doi.org/10.3390/s26217039",
     abstract: "Speed cameras are typically placed at high-crash locations to deter speeding. However, their deterrent effect extends beyond the installation site, as drivers moderate their speed in surrounding areas through halo and spillover effects. This study formulates speed camera location as a continuous facility location problem in which each camera’s influence decays with distance, approximating these effects as a radial, area-wide influence. Voronoi diagrams partition the study area into camera influence regions, and the objective is to maximize the average modeled probability of speed reduction under three assumed distance-decay functions (linear, concave, and convex) with influence distances of 600 to 1000 m. A Nelder–Mead algorithm (NM) and a Genetic Algorithm (GA) are used to relocate a fixed number of cameras, starting from recurrent crash hotspots in Santiago and Providencia, Chile. Results are averaged over 30 independent runs and compared with a Greedy relocation heuristic. Relative to the hotspot-based placement, the GA increases the average modeled probability of speed reduction by up to 14.9 percentage points on average and by up to 24.2, outperforming NM and the Greedy algorithm. Because the decay functions are assumed rather than calibrated, these gains reflect improved modeled coverage, and empirical validation is needed before safety benefits can be claimed.",
     projectUrl: "",
     slidesUrl: ""
